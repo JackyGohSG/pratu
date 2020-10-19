@@ -178,7 +178,7 @@ class User_Settings {
 		acf_add_local_field_group(
 			array(
 				'key'      => 'myhome_agent',
-				'title'    => esc_html__( 'MH User', 'myhome-core' ),
+				'title'    => esc_html__( 'Additional Info', 'myhome-core' ),
 				'location' => array(
 					array(
 						array(
