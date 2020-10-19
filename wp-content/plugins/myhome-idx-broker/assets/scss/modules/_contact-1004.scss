@@ -1,0 +1,49 @@
+.myhome-idx-wrapper__contact-contact-1004,
+.IDX-category-contact {
+  .IDX-pageContainer {
+    @include section-style();
+  }
+  .IDX-control-group {
+    width: 100%;
+    textarea {
+      height: 200px !important;
+    }
+  }
+  .IDX-leadFormText {
+    margin-bottom: 0;
+  }
+  .IDX-leadFormWrap {
+    padding-left: 0;
+    padding-right: 12px;
+    margin-right: 12px;
+  }
+  #IDX-captcha {
+    margin: -12px 0 12px 0;
+  }
+  #IDX-scheduleshowingFormText {
+    padding-bottom: 24px;
+  }
+  #IDX-previousPage {
+    text-align: left;
+    padding: 12px 0 24px;
+  }
+  textarea {
+    min-height: 200px !important;
+  }
+  #IDX-contactAgentPicWrap {
+    float: left;
+    width: 40%;
+  }
+  #IDX-contactAgentInfo {
+    float: left;
+    padding-top: 12px;
+    display: block;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .IDX-contactAgentHeader {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 36px;
+  }
+}

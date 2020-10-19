@@ -1,0 +1,88 @@
+/*------------------------------------------------------------------
+[FRONT ADMIN BAR]
+
+Project:      Admin 2020
+Description:  Styles applied to the wp block editor;
+
+[Table of contents]
+
+1.  Variables
+2.  ADMIN BAR
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+@import 'ma-admin-variables.scss';
+/*------------------------------------------------------------------
+2.  ADMIN BAR
+-------------------------------------------------------------------*/
+body.admin-bar {
+  margin-top: 28px !important;
+}
+
+#wpadminbar {
+  background: #fff;
+  border-bottom: 1px solid $bordercolor;
+  color: #999;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15px;
+
+  .admin2020_front_logo {
+    max-height: 100%;
+    min-height: 100%;
+  }
+
+  #wp-admin-bar-root-default,
+  #wp-admin-bar-top-secondary {
+    #wp-admin-bar-wp-logo {
+      display: none;
+    }
+
+    li .ab-item {
+      color: #999;
+      background: #fff !important;
+
+      &:before {
+        color: #999;
+      }
+
+      :before {
+        color: #999;
+      }
+
+      &:hover {
+        color: $primarylink;
+        background: none;
+
+        &:before {
+          color: $primarylink;
+        }
+
+        :before {
+          color: $primarylink;
+        }
+      }
+
+      .ab-label {
+        color: #999;
+      }
+    }
+  }
+
+  .ab-sub-wrapper {
+    top: 40px;
+    background: #fff !important;
+    border-radius: 4px;
+    padding: 15px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+
+    .ab-sub-secondary {
+      background: none !important;
+      border-top: 1px solid $bordercolor;
+      border-bottom: 1px solid $bordercolor;
+    }
+  }
+}

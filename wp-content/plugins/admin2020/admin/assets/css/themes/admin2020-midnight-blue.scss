@@ -1,0 +1,90 @@
+/*------------------------------------------------------------------
+[COLOR STYLES]
+
+Project:      Admin 2020
+Description:  ALL WP ADMIN COLORS
+
+[Table of contents]
+
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+/* //LIGHT BACKGROUNDS */
+$white: #fff;
+$lightgrey: #f8f8f8;
+/* //DARK BACKGROUNDS */
+$darkestblack: #1a1a2e;
+$darkblack: #16213e; //$darkestblack: #101019;
+//$darkblack: #131827;
+$midblack: #0f3460;
+$blackoverlay: rgba(0,0,0,0.4);
+$black: #000;
+/* //TEXT */
+$metatext: #999;
+$starcolor: #ffc400;
+$bodytext: rgba(255,255,255,.5);
+/* //LINKS */
+$primarylink: #e94560;
+$primarylinkdarker: darken($primarylink, 10%);
+$darkestblue: #001a33; // TOP ADMIN BAR
+$successlink: #32d296;
+$dangerlink: #f0506e;
+$warninglink: #faa05a;
+$pinklink: #ff9ff3;
+/* //BORDERS */
+$bordercolor: rgba(197, 197, 197, 0.2);
+$bordercolordarker: rgba(197, 197, 197, 0.4);
+/*------------------------------------------------------------------
+1.  IMPORT STYLES
+-------------------------------------------------------------------*/
+@import '../ma-admin-editor';
+@import '../ma-admin-head';
+@import '../ma-admin-menu';
+@import '../ma-admin-color';
+@import '../ma-admin-content';
+@import '../ma-admin-common';
+@import '../ma-admin-customize';
+@import '../ma-admin-media';
+@import '../ma-admin-mobile';
+@import '../ma-admin-overview'; ////PLUGIN STYLES
+@import '../extra-plugin/ma-admin-admin-columns-pro';
+@import '../extra-plugin/ma-admin-admin-menu-editor-pro';
+@import '../extra-plugin/ma-admin-admin-menu-editor';
+@import '../extra-plugin/ma-admin-advanced-ads';
+@import '../extra-plugin/ma-admin-advanced-custom-fields-pro';
+@import '../extra-plugin/ma-admin-advanced-custom-fields';
+@import '../extra-plugin/ma-admin-all-in-one-wp-migration';
+@import '../extra-plugin/ma-admin-button-replacer';
+@import '../extra-plugin/ma-admin-codepress-admin-columns';
+@import '../extra-plugin/ma-admin-contact-form-7';
+@import '../extra-plugin/ma-admin-divi';
+@import '../extra-plugin/ma-admin-elementor';
+@import '../extra-plugin/ma-admin-flatsome';
+@import '../extra-plugin/ma-admin-fluentform';
+@import '../extra-plugin/ma-admin-google-site-kit';
+@import '../extra-plugin/ma-admin-google-sitemap-generator';
+@import '../extra-plugin/ma-admin-gravityforms';
+@import '../extra-plugin/ma-admin-groundhogg';
+@import '../extra-plugin/ma-admin-helad.php';
+@import '../extra-plugin/ma-admin-insert-headers-and-footers';
+@import '../extra-plugin/ma-admin-jetpack';
+@import '../extra-plugin/ma-admin-litespeed-cache';
+@import '../extra-plugin/ma-admin-mailpoet';
+@import '../extra-plugin/ma-admin-meta-box';
+@import '../extra-plugin/ma-admin-modern-events-calendar-lite';
+@import '../extra-plugin/ma-admin-oxygen';
+@import '../extra-plugin/ma-admin-pods';
+@import '../extra-plugin/ma-admin-redirection';
+@import '../extra-plugin/ma-admin-seo-by-rank-math';
+@import '../extra-plugin/ma-admin-sfwd-lms';
+@import '../extra-plugin/ma-admin-themify-builder';
+@import '../extra-plugin/ma-admin-visualizer';
+@import '../extra-plugin/ma-admin-w3-total-cache';
+@import '../extra-plugin/ma-admin-woo-bulk-edit-products';
+@import '../extra-plugin/ma-admin-woocommerce';
+@import '../extra-plugin/ma-admin-wordfence';
+@import '../extra-plugin/ma-admin-wordpress-seo';
+@import '../extra-plugin/ma-admin-wp-seopress';
+@import '../extra-plugin/ma-admin-wp-ultimo';
+@import '../extra-plugin/ma-admin-wpforms';
+@import '../extra-plugin/ma-admin-wpvivid-backuprestore';

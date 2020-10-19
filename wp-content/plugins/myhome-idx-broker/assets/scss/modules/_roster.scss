@@ -1,0 +1,95 @@
+.IDX-type-roster {
+  .IDX-rosterContent {
+    @include section-style();
+  }
+  #IDX-rosterFilterForm {
+    background: #f4f4f4;
+  }
+  #IDX-rosterFilterForm {
+    @include clearfix();
+    margin-bottom: 12px;
+  }
+  #IDX-rosterFilter {
+    border-top: none !important;
+    padding: 12px 12px 0 12px !important;
+    text-align: center !important;
+  }
+  .IDX-control-group,
+  #IDX-rosterFilterSubmit {
+    float: left;
+    @include breakpoint(sm) {
+      width: 25%;
+      margin: 0 !important;
+      padding: 0 6px !important;
+    }
+  }
+  #IDX-rosterFilterSubmit {
+    @include button-submit();
+    margin-top: 24px !important;
+  }
+  .IDX-rosterCategoryTitle {
+    background-color: transparent;
+    padding: 0;
+    margin: 0 0 18px 0;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .IDX-rosterCategory {
+    float: left;
+    width: 100% !important;
+    margin-bottom: 0;
+    padding: 12px;
+    background: #f9f9f9;
+    &:nth-child(even) {
+      background: #fff;
+    }
+  }
+  .IDX-rosterUserTitle,
+  .IDX-rosterDisplayName {
+    display: inline;
+  }
+  .IDX-rosterCategoryHeader {
+    margin: 0 0 12px 0;
+  }
+  .IDX-rosterCategoryRightColumn {
+    font-size: 16px;
+    line-height: 24px;
+    p {
+      margin-bottom: 0;
+      display: inline;
+    }
+  }
+  .IDX-rosterAgentViewActiveListings,
+  .IDX-rosterAgentViewSoldListings,
+  .IDX-rosterAgentEmailLink {
+    width: 100%;
+    a {
+      @include button-normal();
+      display: block;
+      margin-bottom: 6px;
+      text-align: center;
+      margin-right: 6px;
+    }
+  }
+  .IDX-rosterInfo {
+    margin-bottom: 12px;
+  }
+  .IDX-rosterLabel {
+    font-weight: 700;
+  }
+  .IDX-rosterColumn {
+    @include clearfix();
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    @include breakpoint(sm) {
+      width: 50%;
+      &.IDX-rosterCategoryRightColumn {
+        padding-left: 12px;
+      }
+      &.IDX-rosterCategoryLeftColumn {
+        padding-right: 12px;
+      }
+    }
+  }
+}

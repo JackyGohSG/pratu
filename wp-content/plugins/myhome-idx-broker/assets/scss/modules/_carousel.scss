@@ -1,0 +1,214 @@
+div[id*=IDX-carouselGallery-] {
+  display: inline-block;
+  font-size: 11px;
+  position: relative;
+  xmax-width: 500px;
+  margin: 0 auto;
+  .IDX-outerCarouselWrapper {
+    overflow: hidden;
+  }
+
+  .IDX-innerCarouselWrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  & + a {
+    text-align: center !important;
+    display: block;
+    border: 2px solid $mh-color-primary;
+    color: $mh-color-primary;
+    padding: 12px;
+    margin: 0 auto 24px auto;
+    width: 200px;
+    text-transform: uppercase;
+    &:hover {
+      background: $mh-color-primary;
+      color: #fff !important;
+    }
+  }
+  .IDX-carouselCell {
+    background-color: transparent !important;
+    border: 0px solid transparent !important;
+    padding: 0px !important;
+    border: 1px solid #666;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    width: 150px !important;
+  }
+  .IDX-carouselCityStateZip .IDX-carouselAddress {
+    @include text-truncate();
+  }
+  .IDX-carouselArrow {
+    color: #222 !important;
+  }
+  .IDX-carouselCell {
+    max-height: none !important;
+  }
+
+  .IDX-carouselLink {
+    height: 100%;
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+    position: relative;
+    display: block;
+    img {
+      filter: brightness(100%);
+      @include mh-transition();
+    }
+    &:hover img {
+      filter: brightness(70%);
+    }
+  }
+
+  .IDX-carouselLink:before {
+    height: 100%;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .IDX-carouselPhoto {
+    max-width: 100%;;
+    display: inline-block;
+    vertical-align: middle;
+    border: 6px solid transparent;
+    border-bottom: none;
+  }
+
+  .IDX-carouselPrice {
+    font-size: 21px;
+    color: $mh-color-primary;
+    font-weight: bold;
+    margin-top: 6px !important;
+  }
+  .IDX-carouselArrow {
+    border-radius: 0 !important;
+  }
+  .IDX-carouselAddress.IDX-carouselAddressElement {
+    margin-top: 10px !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    text-transform: uppercase !important;
+  }
+
+  a.IDX-carouselArrow {
+    display: block;
+    position: absolute;
+    background: #666;
+    width: 40px;
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
+    top: 0;
+  }
+
+  a.IDX-carouselPrevArrow {
+    left: 0;
+  }
+
+  a.IDX-carouselNextArrow {
+    right: 0;
+  }
+
+  a.IDX-carouselArrow, #IDX-carouselGallery-41048 a.IDX-carouselArrow:hover,
+  a.IDX-carouselArrow:visited {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  a.IDX-carouselPrevArrow {
+    border-radius: 5px 0 0 5px;
+  }
+
+  a.IDX-carouselNextArrow {
+    border-radius: 0 5px 5px 0;
+  }
+
+  a.IDX-carouselArrow span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -50%;
+    font-weight: bold;
+    font-size: 40px;
+    transform: scale(0.5, 1);
+  }
+
+  .IDX-carouselCell div {
+    text-align: center;
+  }
+
+  .IDX-carouselListingID,
+  .IDX-carouselBeds,
+  .IDX-carouselBaths,
+  .IDX-carouselFull,
+  .IDX-carouselPartial,
+  .IDX-carouselRemarks,
+  .IDX-carouselDisclaimerLink,
+  .IDX-carouselStatus,
+  .IDX-carouselStateAbrv {
+    display: none;
+  }
+
+  .IDX-carouselContainer {
+    position: relative;
+    padding-bottom: 12px;
+  }
+  .IDX-showcaseCourtesy {
+    display: block;
+  }
+
+  a.IDX-carouselArrow {
+    background-color: transparent !important;
+    opacity: 1 !important;
+  }
+
+  .IDX-carouselAddressElement,
+  .IDX-carouselCityStateZip {
+    @include text-truncate();
+  }
+
+  .IDX-outerCarouselWrapper {
+    margin-bottom: 24px !important;
+  }
+
+  .IDX-carouselContainer > div {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .IDX-carouselCell > div {
+    background: #f4f4f4;
+  }
+
+  a.IDX-carouselArrow span {
+    margin-top: -80%;
+  }
+
+  .IDX-carouselCell {
+    min-width: 240px !important;
+    margin: 0 6px !important;
+    @include breakpoint(sm) {
+      min-width: 300px !important;
+    }
+  }
+  .IDX-carouselAddress.IDX-carouselAddressElement {
+    min-height: 36px;
+  }
+}
+
+.white-card-background .IDX-carouselCell > div {
+  background: #fff !important;
+}
+
+.mh-layout__sidebar-right div[id*=IDX-carouselGallery-] .IDX-carouselCell,
+.mh-layout__sidebar-left div[id*=IDX-carouselGallery-] .IDX-carouselCell {
+  min-width: 224px !important;
+}
+
+.mh-layout__sidebar-right div[id*=IDX-carouselGallery-] .IDX-outerCarouselWrapper,
+.mh-layout__sidebar-left div[id*=IDX-carouselGallery-] .IDX-outerCarouselWrapper {
+  margin-bottom: 0 !important;
+}

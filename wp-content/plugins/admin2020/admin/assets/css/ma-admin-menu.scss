@@ -1,0 +1,416 @@
+/*------------------------------------------------------------------
+[MENU STYLES]
+
+Project:      Admin 2020
+Description:  All styles applied within admin menu
+
+[Table of contents]
+
+
+1.  Variables
+1.  General Wp Styles
+2.  Hidden Styles
+3.  Admin 2020 Menu
+4.  Icons
+5.  Links
+6.  Shrunk Menu
+7.  Dark Mode
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+//DARK BACKGROUNDS
+@import 'ma-admin-variables.scss';
+/*------------------------------------------------------------------
+1.  General Wp Styles
+-------------------------------------------------------------------*/
+#adminmenumain,
+#wpcontent {
+	position: relative;
+	width: 300px;
+	float: left;
+	left: 0;
+	margin-left: 0;
+	min-height: calc(100vh - 81px);
+}
+
+#adminmenumain {
+	height: 100vh;
+	position: fixed;
+	z-index: 999 !important;
+}
+
+#wpcontent {
+	width: calc(100% - 300px);
+	float: right;
+	padding: 40px 70px 40px 70px !important;
+}
+
+#adminmenuwrap {
+	position: relative !important;
+}
+
+#adminmenu {
+	padding: 0;
+	margin: 0;
+}
+
+.update-plugins,
+.update-plugins {
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	margin-left: 5px;
+}
+
+.ma-admin-main-menu {
+	li:not(.uk-nav-divider) {
+		margin-bottom: 0;
+	}
+}
+/*------------------------------------------------------------------
+2.  Hidden Styles
+-------------------------------------------------------------------*/
+.count-0 {
+	display: none !important;
+}
+
+#adminmenuback,
+.screen-reader-shortcut {
+	display: none;
+}
+
+#collapse-menu,
+.screen-reader-text {
+	display: none !important;
+}
+
+.ma-admin-menu-wrap {
+	height: calc(100vh - 55px);
+	width: 100%;
+	overflow-y: auto;
+	box-shadow: 0 5px 15px rgba(0,0,0,.08);
+	padding: 40px 0;
+}
+/*------------------------------------------------------------------
+3.  Admin 2020 Menu
+-------------------------------------------------------------------*/
+.ma-admin-main-menu {
+	padding-bottom: 50px;
+	min-height: 100%;
+}
+
+#adminmenu div.wp-menu-image.svg {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px auto;
+}
+
+.wp-menu-name {
+	max-width: calc(100% - 80px) !important;
+	white-space: normal;
+}
+
+.ma-admin-menu-shrink {
+	.wp-menu-name {
+		white-space: nowrap;
+	}
+}
+
+.ma-admin-menu-shrink {
+	#adminmenuwrap:hover {
+		.wp-menu-name {
+			white-space: normal;
+		}
+	}
+}
+/*------------------------------------------------------------------
+4.  Icons
+-------------------------------------------------------------------*/
+#ma-admin-searchtab {
+	padding: 0 40px !important;
+
+	.uk-form-icon {
+		width: 30px;
+	}
+
+	.ma-menu-search {
+		padding-left: 45px !important;
+		background: none;
+	}
+}
+
+#ma-admin-menu-list {
+	.wp-submenu-wrap {
+		padding-left: 88px !important;
+	}
+}
+
+.ma-admin-shrink-wrap {
+	width: 100%;
+	max-width: none;
+	padding: 10px 40px;
+	border-top: 1px solid $bordercolor;
+	background: $white;
+
+	a {
+		padding: 0 !important;
+		background: none;
+		box-shadow: none;
+	}
+}
+
+.ma-admin-menu-icon {
+	width: 20px;
+}
+
+.wp-menu-image {
+	width: 25px;
+	position: relative;
+	float: left;
+	height: 20px;
+}
+
+.wp-menu-image::before {
+	font-family: dashicons;
+	font-size: 18px;
+	text-align: left;
+	width: 20px;
+	position: relative;
+	float: left;
+	line-height: 22px;
+	margin: 0 !important;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.admin2020-network-page::before {
+	background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 20010904//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'%3E%3Csvg version='1.0' xmlns='http://www.w3.org/2000/svg' width='160.000000pt' height='160.000000pt' viewBox='0 0 160.000000 160.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cmetadata%3E%0ACreated by potrace 1.16, written by Peter Selinger 2001-2019%0A%3C/metadata%3E%3Cg transform='translate(0.000000,160.000000) scale(0.100000,-0.100000)'%0Afill='%2000880' stroke='none'%3E%3Cpath d='M329 1157 c-115 -48 -179 -119 -223 -248 -56 -160 40 -367 210 -450%0A115 -57 254 -49 364 21 60 39 450 431 450 454 0 22 -44 66 -66 66 -10 0 -110%0A-92 -223 -204 -127 -125 -223 -212 -251 -227 -54 -27 -155 -31 -211 -7 -166%0A72 -214 301 -89 426 43 43 81 62 140 69 60 7 130 -10 179 -42 42 -30 82 -32%0A104 -7 39 43 8 90 -91 139 -46 22 -72 28 -146 30 -78 3 -99 0 -147 -20z'/%3E%3Cpath d='M989 1157 c-31 -13 -71 -34 -90 -47 -50 -35 -398 -381 -415 -412 -24%0A-47 3 -88 59 -88 13 0 90 69 226 204 113 112 222 212 241 222 52 27 171 26%0A226 -3 48 -26 110 -92 130 -139 17 -41 18 -133 2 -185 -14 -49 -69 -114 -117%0A-138 -83 -43 -194 -33 -270 24 -19 14 -43 25 -54 25 -24 0 -137 -113 -137%0A-137 0 -61 66 -82 120 -37 l31 26 52 -22 c103 -45 243 -35 336 25 104 65 181%0A203 181 322 0 103 -68 241 -148 300 -76 56 -134 77 -227 80 -77 3 -98 0 -146%0A-20z'/%3E%3C/g%3E%3C/svg%3E%0A");
+	height: 22px;
+	content: ' ';
+	border-radius: 50%;
+	width: 22px;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.wp-submenu-wrap {
+	margin-top: 0 !important;
+}
+/*------------------------------------------------------------------
+5.  Links
+-------------------------------------------------------------------*/
+.uk-nav-default > li.uk-active > a {
+	color: $primarylink;
+}
+
+#adminmenuwrap {
+	.uk-nav-default > li > a {
+		color: #999;
+		padding: 5px 44px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		border-right: 2px solid rgba(0,0,0,0);
+	}
+
+	.uk-nav-default > li:not(.ma-admin-shrink-wrap):hover > a {
+		background: none !important;
+		border-right: 2px solid $primarylink;
+		cursor: pointer;
+	}
+
+	.uk-nav-header {
+		margin: 20px 43px 10px;
+		text-transform: none;
+		font-weight: 800;
+	}
+
+	.uk-nav-default > li.uk-active > a {
+		color: $primarylink !important;
+		background: none !important;
+		border-right: 2px solid $primarylink !important;
+	}
+
+	.uk-nav-divider {
+		margin: 30px 40px;
+	}
+}
+
+.ma-admin-smaller-divider {
+	margin: 15px 0;
+}
+
+.ma-admin-expander {
+	display: none !important;
+}
+
+.ma-menu-search {
+	border-radius: 0 !important;
+	border: 0 !important;
+	padding-left: 45px !important;
+}
+
+.ma-admin-shrink {
+	float: left;
+}
+
+.ma-admin-option-icon {
+	max-width: 20px;
+	float: left;
+}
+
+.show-on-shrink {
+	display: none;
+}
+/*------------------------------------------------------------------
+6.  Shrunk Menu
+-------------------------------------------------------------------*/
+@media (min-width: 960px) {
+	.ma-admin-menu-shrink {
+		#adminmenumain {
+			width: 111px !important;
+			transition: all 0.2s ease-in-out;
+			z-index: 99;
+
+			.ma-admin-shrink {
+				max-width: 0;
+				float: left;
+				opacity: 0 !important;
+				transition: all 0.2s ease-in-out;
+				margin-left: 0;
+			}
+
+			.uk-nav-header {
+				display: none;
+			}
+
+			.show-on-shrink {
+				display: block;
+			}
+
+			.uk-nav-sub {
+				max-height: 0;
+				transition: all 0.2s ease-in-out;
+			}
+
+			.uk-nav-sub {
+				max-width: 0;
+				opacity: 0;
+				padding: 0;
+				margin: 0 !important;
+			}
+
+			.ma-menu-search {
+				margin-left: 0 !important;
+			}
+
+			.uk-nav-parent-icon > .uk-parent > a::after {
+				opacity: 0;
+				max-width: 0;
+				transition: all 0.2s ease-in-out;
+			}
+
+			.ma-admin-shrinker {
+				float: left;
+				display: none;
+			}
+
+			.ma-admin-expander {
+				display: block !important;
+			}
+
+			.ma-admin-option-icon {
+				margin-right: 0 !important;
+				float: left;
+			}
+
+			.wp-has-submenu {}
+
+			.ma-admin-option-icon {
+				cursor: pointer;
+			}
+		}
+
+		#wpcontent {
+			width: calc(100% - 111px);
+		}
+
+		.block-editor-editor-skeleton {
+			left: 111px !important;
+			width: calc(100% - 111px) !important;
+		}
+	}
+
+	.ma-admin-menu-shrink {
+		.ma-admin-menu-wrap {
+			overflow-y: hidden;
+			overflow-x: hidden;
+
+			&:hover {
+				overflow-y: auto;
+			}
+		}
+
+		#adminmenumain {
+			&:hover {
+				width: 20% !important;
+				z-index: 3;
+
+				.ma-admin-shrink {
+					max-width: 100%;
+					opacity: 1 !important;
+					margin-left: 25px;
+				}
+
+				.show-on-shrink {
+					display: none;
+				}
+
+				.uk-nav-header {
+					display: block;
+				}
+
+				.uk-nav-sub {
+					max-height: 100%;
+				}
+
+				.ma-menu-search {
+					padding-left: 50px !important;
+				}
+
+				.uk-nav-sub {
+					max-width: 100%;
+					opacity: 1;
+					padding-left: 88px !important;
+					margin-bottom: 20px !important;
+				}
+
+				.uk-nav-parent-icon > .uk-parent > a::after {
+					max-width: 100%;
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+/*------------------------------------------------------------------
+7.  Dark Mode
+-------------------------------------------------------------------*/
+.ma-admin-dark {
+	.ma-admin-menu-wrap {
+		border-right: 1px solid $bordercolor;
+	}
+
+	.ma-admin-shrink-wrap {
+		background: $darkestblack;
+		border-right: 1px solid $bordercolor;
+
+		* {
+			background: none !important;
+		}
+	}
+}

@@ -1,0 +1,73 @@
+/*------------------------------------------------------------------
+[SITE CUSTOMIZER]
+
+Project:      Admin 2020
+Description:  Styles applied to the wp site customiser editor;
+
+[Table of contents]
+
+1.  Variables
+2.  Customiser
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+@import 'ma-admin-variables.scss';
+/*------------------------------------------------------------------
+2.  Customiser
+-------------------------------------------------------------------*/
+.wp-customizer {
+  .accordion-section {
+    padding: 0;
+    margin: 0;
+    border: none;
+  }
+
+  h3.accordion-section-title {
+    margin: 0;
+    border: none;
+  }
+
+  .accordion-section-title {
+    border: none !important;
+  }
+
+  .accordion-section-title::after {
+    background: none;
+  }
+
+  #accordion-section-themes {
+    padding: 12px 15px 15px;
+
+    .accordion-section-title {
+      padding: 0 0 30px;
+      border-bottom: 1px solid $bordercolor !important;
+    }
+  }
+
+  #customize-theme-controls .control-panel-themes .accordion-section-title .change-theme {
+    right: 0;
+    top: 15px;
+  }
+
+  #customize-info {
+    border-color: $bordercolor;
+  }
+
+  #customize-header-actions {
+    background: none;
+  }
+
+  .customize-controls-close {
+    background: none;
+  }
+
+  #customize-footer-actions {
+    background: none;
+  }
+
+  .devices {
+    background: none;
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,49 @@
+.myhome-idx-wrapper__search_page-searchStandard-1002 {
+  @import 'navigation';
+  .IDX-searchForm-search {
+    @include section-style();
+    margin-bottom: 0;
+    .IDX-clear {
+      display: none;
+    }
+    #IDX-search-row-content {
+      padding: 0;
+    }
+    #IDX-pt-group,
+    .IDX-addressField {
+      width: 100%;
+    }
+    #IDX-pt-group {
+      @include breakpoint(sm) {
+        width: 50%;
+      }
+    }
+    #IDX-searchSubmitReset br {
+      display: none;
+    }
+    #IDX-searchRefinement {
+      margin: 0;
+    }
+    .IDX-submitContainer {
+      float: left;
+    }
+  }
+  @media (max-width: 767px) {
+    .IDX-row-content #IDX-cczContainer {
+      display: flex!important;
+      flex-direction: column-reverse!important;
+    }
+    .IDX-row-content #IDX-cczController {
+      width: 100%!important;
+    }
+    .IDX-row-content div#IDX-cczSelects {
+      width: 100%!important;
+    }
+    .IDX-row-content  #IDX-cczSelects {
+      margin-left: 9px!important;
+    }
+    .IDX-row-content .IDX-control-group {
+      width:100%!important;
+    }
+  }
+}

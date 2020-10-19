@@ -1,0 +1,19 @@
+.myhome-idx-wrapper__user_login-userlogin-1001 {
+  .IDX-pageContainer {
+    @include section-style();
+  }
+  #IDX-loginSubmit {
+    @include button-submit();
+    margin-top: 12px;
+  }
+  #IDX-userSignupLink {
+    @include button-normal();
+  }
+  .IDX-checkbox span {
+    top: -2px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,80 @@
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+@import '../ma-admin-variables.scss';
+/*------------------------------------------------------------------
+2.  GENERAL
+-------------------------------------------------------------------*/
+.wpvivid_tab_general {
+  .quickbackup-btn {
+    font-size: 16px !important;
+    width: auto !important;
+  }
+}
+
+.quicktransfer-btn {
+  font-size: 16px !important;
+  width: auto !important;
+}
+@media (max-width: 1350px) {
+  [class*="wpvivid"],
+  [class*="WPvivid"] {
+    #wpbody-content #post-body.columns-2 #postbox-container-1 {
+      width: 30%;
+    }
+  }
+}
+
+#wpvivid_backuplist_table {
+  box-shadow: none;
+  margin-top: 30px;
+
+  thead {
+    background-color: $bordercolor;
+
+    th {
+      vertical-align: middle;
+      padding: 10px;
+    }
+  }
+
+  tbody {
+    td,
+    th {
+      padding-top: 10px;
+    }
+  }
+}
+
+.quickstart-storage-setting {
+  background: $lightgrey !important;
+  padding: 30px !important;
+  border: 1px solid $bordercolor;
+  border-radius: 4px;
+}
+
+.row-title.wpvivid-backup-settings-table {
+  vertical-align: top;
+}
+
+.ma-admin-dark {
+  .quickstart-storage-setting {
+    background: $midblack !important;
+  }
+
+  .storage-account-page div:first-child {
+    background: none !important;
+  }
+}
+
+.wpvivid_tab_log {
+  .wp-list-table {
+    box-shadow: none;
+  }
+}
+
+.wpvivid_tab_premium {
+  .wp-list-table {
+    box-shadow: none;
+  }
+}

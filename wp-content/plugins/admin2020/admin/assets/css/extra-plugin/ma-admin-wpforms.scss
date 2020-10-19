@@ -1,0 +1,59 @@
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+@import '../ma-admin-variables.scss';
+/*------------------------------------------------------------------
+2.  GENERAL
+-------------------------------------------------------------------*/
+.wpforms-admin-page {
+  #wpcontent {
+    padding: 0 !important;
+
+    .add-new-h2 {
+      float: right;
+      background: $primarylink;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    #wpforms-header-temp {
+      display: none !important;
+    }
+  }
+}
+
+#wpforms-overview-table {
+  .row-actions {
+    display: block;
+    opacity: 0 !important;
+    position: relative !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    width: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+    flex-direction: row !important;
+
+    span {
+      float: left;
+      width: auto !important;
+      padding-left: 0;
+      top: 0;
+      position: relative;
+    }
+  }
+
+  .form_name:hover {
+    .row-actions {
+      opacity: 1 !important;
+    }
+  }
+}
+
+.ma-admin-dark {
+  .page-title {
+    background: $darkblack !important;
+  }
+}

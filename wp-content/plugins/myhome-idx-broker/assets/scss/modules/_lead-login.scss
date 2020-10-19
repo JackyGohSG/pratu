@@ -1,0 +1,57 @@
+#IDX-widgetLeadLoginWrapper.IDX-widgetLeadLoginWrapper {
+  width: auto;
+  padding: 18px 12px 12px;
+  text-align: left;
+  background-color: #F2F2F2;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  box-shadow: none;
+  max-width: 500px;
+  margin: 0 auto;
+  br {
+    display: none !important;
+  }
+  #IDX-widgetEmailWrap,
+  #IDX-widgetPasswordWrap,
+  #IDX-widgetLeadLoginSubmitWrap {
+    padding: 5px 0;
+  }
+  #IDX-widgetLeadLoginHeader {
+    padding-bottom: 18px !important;
+  }
+  #IDX-widgetLeadLoginHeader > h3 {
+    text-transform: uppercase !important;
+    font-weight: 700;
+    margin-bottom: 12px !important;
+    font-size: 16px;
+  }
+
+  #IDX-widgetLeadLoginWrapper .IDX-widgetLabel {
+    float: none !important;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700 !important;
+    padding-bottom: 3px;
+  }
+
+  .IDX-widgetLabel {
+    display: block;
+    text-align: left;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+  }
+
+  input {
+    margin-bottom: 6px;
+    width: 100%;
+  }
+  .IDX-leadLoginTextInput:focus {
+    background-color: #F4FBFE;
+  }
+
+  input[type=submit] {
+    @include button-submit();
+  }
+}

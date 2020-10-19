@@ -1,0 +1,71 @@
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+@import '../ma-admin-variables.scss';
+/*------------------------------------------------------------------
+2.  GENERAL
+-------------------------------------------------------------------*/
+.stockpack-browser.attachments-browser {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+
+  .attachments {
+    top: 0;
+    padding-top: 0;
+  }
+
+  .stockpack-downloader {
+    .button {
+      float: right;
+    }
+  }
+
+  .stockpack-no-search {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+    align-items: initial;
+
+    h2 {
+      font-size: 24px;
+    }
+
+    .stockpack-no-search-wrapper {
+      position: relative;
+    }
+  }
+
+  .stockpack-no-search.hidden {
+    display: none;
+  }
+
+  .media-toolbar {
+    width: 70%;
+    position: relative;
+    margin-top: 0;
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .group-label {
+      display: none;
+    }
+
+    .media-toolbar-secondary {
+      float: right;
+      width: 100%;
+      order: 1;
+
+      .stockpack-attribution {
+        width: 100%;
+      }
+    }
+
+    .media-toolbar-primary.search-form {
+      float: right;
+    }
+  }
+}

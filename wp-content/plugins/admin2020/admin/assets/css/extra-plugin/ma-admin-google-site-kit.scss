@@ -1,0 +1,48 @@
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+@import '../ma-admin-variables.scss';
+/*------------------------------------------------------------------
+2.  DARK MODES
+-------------------------------------------------------------------*/
+.toplevel_page_googlesitekit-dashboard img {
+  margin-left: 2px;
+}
+
+body:not(.ma-admin-dark) {
+  .toplevel_page_googlesitekit-dashboard img {
+    background-color: #999999;
+    border-radius: 4px;
+  }
+}
+
+.ma-admin-dark {
+  .googlesitekit-plugin {
+    .googlesitekit-header {
+      background: $darkblack !important;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      color: #fff !important;
+    }
+
+    p {
+      color: #999 !important;
+    }
+
+    .googlesitekit-table .googlesitekit-table__head-item {
+      color: #fff !important;
+    }
+
+    .googlesitekit-layout {
+      background: $darkblack !important;
+    }
+
+    .googlesitekit-table .googlesitekit-table__body-row {
+      border-bottom: 1px solid $bordercolor;
+    }
+  }
+}

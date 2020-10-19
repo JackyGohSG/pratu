@@ -1,0 +1,24 @@
+.myhome-idx-wrapper__browser_by_city,
+.IDX-type-homesforsale {
+  .IDX-pageContainer {
+    @include section-style();
+    h2 {
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    ul:first-child {
+      display: none;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        margin-bottom: 6px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

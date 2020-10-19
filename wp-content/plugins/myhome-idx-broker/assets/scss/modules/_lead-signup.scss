@@ -1,0 +1,69 @@
+#LeadSignup.LeadSignup {
+  text-align: left;
+  border: 0px solid transparent;
+  background-color: #F2F2F2;
+  width: auto;
+  padding: 18px 12px 12px;
+  border-radius: 0px;
+  box-shadow: none;
+  max-width: 500px;
+  margin: 0 auto;
+  #IDX-widgetEmailWrap,
+  #IDX-widgetPasswordWrap,
+  #IDX-widgetLeadSignupSubmitWrap {
+    padding: 5px 0;
+  }
+  input {
+    margin-bottom: 6px;
+    width: 100% !important;
+  }
+
+  #IDX-widgetagentOwner {
+    margin-bottom: 5px;
+  }
+
+  .IDX-widgetLabel {
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    margin-bottom: 3px !important;
+  }
+
+  #IDX-widgetLeadSignupHeaderWrapper {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .IDX-leadSignupReqStar {
+    position: relative !important;
+    top: -6px !important;
+    right: -2px !important;
+  }
+  .IDX-widgetFieldWrap {
+    padding: 0;
+    margin-top: 6px;
+  }
+
+  #IDX-widgetLeadSignupForm input.IDX-LeadSignupInput {
+    padding: 10px 20px;
+    line-height: 24px;
+    margin-bottom: 13px;
+  }
+
+  #IDX-widgetLeadSignupHeader h3 {
+    font-weight: 700 !important;
+    text-align: left;
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+
+  .IDX-leadSignupReqStar {
+    position: relative;
+    top: -6px;
+    right: -2px;
+  }
+
+  input[type=submit] {
+    @include button-submit();
+  }
+}

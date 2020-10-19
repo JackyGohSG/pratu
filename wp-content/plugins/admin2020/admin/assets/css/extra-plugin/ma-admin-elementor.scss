@@ -1,0 +1,25 @@
+/*------------------------------------------------------------------
+[Elementor STYLES]
+
+Project:      Admin 2020
+Description:  Loaded if Elementor is installed
+
+[Table of contents]
+
+
+1.  General
+@import '../ma-admin-variables.scss';
+-------------------------------------------------------------------*/
+@import '../ma-admin-variables.scss';
+
+.post-type-elementor_library {
+  #elementor-import-template-trigger {
+    right: 220px;
+  }
+}
+/*------------------------------------------------------------------
+1.  General
+-------------------------------------------------------------------*/
+.e-getting-started__box.postbox {
+  width: 100%;
+}

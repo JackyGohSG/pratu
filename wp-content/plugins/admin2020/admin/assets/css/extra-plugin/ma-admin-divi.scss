@@ -1,0 +1,26 @@
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+//DARK BACKGROUNDS
+@import '../ma-admin-variables.scss';
+/*------------------------------------------------------------------
+2.  DARK MODES
+-------------------------------------------------------------------*/
+.ma-admin-dark {
+  .et-tb-layout-placeholder__title {
+    color: #999 !important;
+  }
+
+  #et_load_category_page,
+  .et-pb-portability-button {
+    background: $midblack !important;
+  }
+}
+
+.toplevel_page_divi-engine img {
+  float: left;
+  position: relative;
+  top: 0;
+  transform: none;
+  left: 0;
+}

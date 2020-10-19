@@ -1,0 +1,36 @@
+/*------------------------------------------------------------------
+[COLOR STYLES]
+
+Project:      Admin 2020
+Description:  ALL WP ADMIN COLORS
+
+[Table of contents]
+
+/*------------------------------------------------------------------
+1.  DEFAULT VARIABLES
+-------------------------------------------------------------------*/
+/* //LIGHT BACKGROUNDS */
+$white: #fff!default;
+$lightgrey: #f8f8f8!default;
+/* //DARK BACKGROUNDS */
+$darkestblack: #111!default;
+$darkblack: #222!default; //$darkestblack: #101019!default;
+//$darkblack: #131827!default;
+$midblack: #333!default;
+$blackoverlay: rgba(0,0,0,0.4)!default;
+$black: #000!default;
+/* //TEXT */
+$metatext: #999!default;
+$starcolor: #ffc400!default;
+$bodytext: rgba(255,255,255,.5)!default;
+/* //LINKS */
+$primarylink: #1e87f0!default;
+$primarylinkdarker: #0768ca!default;
+$darkestblue: #001a33!default; // TOP ADMIN BAR
+$successlink: #32d296!default;
+$dangerlink: #f0506e!default;
+$warninglink: #faa05a!default;
+$pinklink: #ff9ff3!default;
+/* //BORDERS */
+$bordercolor: rgba(197, 197, 197, 0.2)!default;
+$bordercolordarker: rgba(197, 197, 197, 0.4)!default;

@@ -1,0 +1,23 @@
+.myhome-idx-wrapper__user_signup-usersignup-1002 {
+  .IDX-pageContainer {
+    @include section-style();
+  }
+  .IDX-control-group {
+    margin: 0;
+    width: 100%;
+    .IDX-controls {
+      max-width: 290px;
+    }
+  }
+  #IDX-loginText {
+    display: block;
+    margin-bottom: 12px;
+    a {
+      color: $mh-color-primary;
+      text-decoration: underline;
+    }
+  }
+  #IDX-submitBtn {
+    @include button-submit();
+  }
+}

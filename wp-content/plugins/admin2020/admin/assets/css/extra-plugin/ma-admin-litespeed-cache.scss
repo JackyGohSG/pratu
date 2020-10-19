@@ -1,0 +1,63 @@
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+@import '../ma-admin-variables.scss';
+/*------------------------------------------------------------------
+2.  GENERAL
+-------------------------------------------------------------------*/
+.litespeed-dashboard-stats-wrapper {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+
+  .postbox {
+    box-shadow: none;
+  }
+}
+
+.litespeed-body {
+  .wp-list-table {
+    background: none;
+    padding: 0;
+    box-shadow: none;
+  }
+}
+
+.litespeed-body {
+  float: left;
+
+  .litespeed-callout {
+    float: left;
+  }
+}
+
+.ma-admin-dark {
+  .litespeed-title {
+    border-color: $bordercolor !important;
+  }
+
+  .litespeed-postbox-footer {
+    background: $darkblack !important;
+  }
+
+  .litespeed-pie_info text {
+    fill: #fff;
+  }
+
+  .litespeed-body {
+    background: $darkblack;
+    border-radius: 4px;
+    border: none;
+  }
+
+  .litespeed-callout {
+    background: $midblack !important;
+    border-top: none!important;
+    border-right: none!important;
+    border-bottom: none!important;
+  }
+
+  .litespeed-switch {
+    label {
+      color: #999;
+    }
+  }
+}

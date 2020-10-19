@@ -1,0 +1,114 @@
+.myhome-idx-wrapper__photo_gallery-mobileFirstPhotoGallery-1003 {
+  hr {
+    display: none;
+  }
+  #IDX-previousPage {
+    margin: 6px 0 9px 0 !important;
+    @include breakpoint(sm) {
+      margin: 9px 0 6px 0 !important;
+    }
+  }
+  @media (max-width: 400px) {
+    #IDX-showcaseSlides .IDX-showcaseSlide {
+      min-height: 200px;
+    }
+  }
+  #IDX-returnToPreviousPage,
+  #IDX-goToProperty {
+    border: none;
+    padding: 3px 0;
+    margin: 0 12px 0 0;
+    width: auto;
+    text-align: left;
+    background: transparent !important;
+    color: #222 !important;
+  }
+  #IDX-goToProperty {
+    padding-right: 6px;
+    position: relative;
+    &:after {
+      content: '';
+      background: #c5c5c5;
+      height: 17px;
+      width: 1px;
+      position: absolute;
+      top: 5px;
+      left: -6px;
+    }
+  }
+  .IDX-active {
+    color: $mh-color-primary;
+  }
+  .IDX-propertyInfoList {
+    @include section-style();
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+    .IDX-label {
+      font-weight: 700;
+      text-transform: uppercase;
+      float: left;
+      display: inline-block;
+      margin-right: 6px;
+    }
+    li.IDX-propertyInfoData {
+      margin: 0 0 3px 0;
+      font-size: 14px;
+      float: left;
+      width: 100%;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    #IDX-propertyInfoLocationInfo {
+      margin-top: -6px;
+    }
+    #IDX-propertyInfoAddress {
+      width: auto;
+    }
+  }
+  .IDX-wrapper-standard .IDX-thumbnail {
+    background-color: #f4f4f4;
+    border: 0px solid transparent;
+    margin-bottom: 0;
+  }
+  #IDX-showcaseThumbnails-buttons {
+    background: #f4f4f4;
+    padding: 0 12px 12px 12px;
+    margin: 0 -15px;
+    @include breakpoint(sm) {
+      padding-bottom: 24px;
+    }
+  }
+  .IDX-thumbnail {
+    padding-top: 24px;
+
+  }
+  #IDX-showcaseSlides .IDX-showcaseSlide img {
+    max-height: 100%;
+  }
+  #IDX-photoGallery {
+    padding-top: 18px;
+    background: #f4f4f4;
+  }
+  #IDX-photoGallery .IDX-arrow {
+    background-color: #222;
+    border: none;
+    color: #fff;
+    &:hover {
+      background-color: $mh-color-primary;
+    }
+    &:active,
+    &:focus {
+      background-color: initial;
+    }
+  }
+  .IDX-pageHeader {
+    margin: 0 0 24px 0;
+    padding: 0;
+  }
+  .IDX-pageContainerIDX-enhancedPhotoGallery + div {
+    margin: 24px 0 !important;
+  }
+
+}

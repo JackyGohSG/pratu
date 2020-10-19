@@ -1,0 +1,201 @@
+.idx-omnibar-form {
+  opacity: 0 !important;
+  max-height: 48px !important;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  text-align: center;
+  @include transition(opacity 0s);
+  .awesomplete {
+    background: #fff;
+  }
+  .idx-omnibar-extra {
+    display: none !important;
+  }
+  .idx-omnibar-form.idx-omnibar-extra-form button,
+  .idx-omnibar-extra-button {
+    margin-top: 0 !important;
+  }
+  input {
+    border: none;
+    font-size: 16px;
+    text-align: left;
+    height: 48px !important;
+    padding: 12px;
+    background: #fff;
+    color: #222 !important;
+  }
+  button {
+    background: $mh-color-primary;
+    color: #fff;
+    border: none;
+    text-align: center;
+    height: 48px !important;
+    width: 48px !important;
+    span {
+      display: none
+    }
+  }
+  .awesomplete ul {
+    font-size: 16px;
+    border-radius: 0;
+    border: none;
+    margin-top: 12px;
+    background: #fff;
+    border: 1px solid #c5c5c5;
+    box-shadow: none;
+  }
+  .awesomplete ul:before {
+    top: -5px;
+  }
+  .awesomplete ul li {
+    text-align: left;
+    padding: 5px 12px;
+    line-height: 16px;
+    font-size: 14px;
+    display: block;
+  }
+  .awesomplete > ul > li:hover,
+  .awesomplete > ul > li[aria-selected="true"] {
+    background: #f4f4f4;
+    color: $mh-color-primary;
+    font-weight: 400;
+  }
+  .awesomplete > ul > li mark {
+    background: $mh-color-primary;
+    color: #fff;
+  }
+}
+
+.widget {
+  .idx-omnibar-form {
+    position: relative !important;
+  }
+
+  .idx-omnibar-form .awesomplete {
+    width: 100% !important;
+    padding-right: 47px !important;
+  }
+
+  .idx-omnibar-form button {
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+  }
+
+  .idx-omnibar-form.idx-omnibar-original-form input {
+    background: #f4f4f4 !important;
+  }
+
+  .idx-omnibar-form {
+    padding: 0 !important;
+  }
+
+  .idx-omnibar-form label {
+    display: none !important;
+  }
+}
+
+.js_active .idx-omnibar-form,
+.mdl-js .idx-omnibar-form {
+  opacity: 1 !important;
+}
+
+html body.vc_editor {
+  .idx-omnibar-form input[type=text] {
+    background: #fff !important;
+    &:focus,
+    &:hover,
+    &:active {
+      background: #fff !important;
+    }
+  }
+}
+
+html body.vc_editor .widget-area .idx-omnibar-form input[type=text] {
+  width: 100% !important;
+}
+
+.mh-rs-search--middle .myhome-idx-omnibar {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+
+.myhome-idx-omnibar--additional_fields {
+  @media (min-width: 767px) {
+    .idx-omnibar-form .idx-omnibar-extra {
+      display: block !important;
+      position: absolute !important;
+      width: 150px !important;
+    }
+
+    .idx-omnibar-form .idx-omnibar-extra.idx-omnibar-bed-container {
+      left: 0px !important;
+    }
+    .idx-omnibar-form .idx-omnibar-extra.idx-omnibar-bath-container {
+      position: absolute !important;
+      left: 155px !important;
+    }
+    .idx-omnibar-form .idx-omnibar-extra.idx-omnibar-price-container {
+      position: absolute !important;
+      left: 309px !important;
+    }
+
+    .idx-omnibar-form label {
+      margin: 6px 0 3px 0 !important;
+    }
+
+    .idx-omnibar-form {
+      height: 190px !important;
+      max-height: 190px !important;
+      max-width: 460px !important;
+      position: relative !important;
+    }
+    .idx-omnibar-form {
+      padding: 0 !important;
+    }
+
+    .idx-omnibar-form button {
+      position: absolute;
+      bottom: 0;
+      width: 100% !important;
+      max-width: 458px !important;
+      left: 0 !important;
+      right: 0 !important;
+      margin: 0 auto !important;
+    }
+
+    .idx-omnibar-form > div {
+      width: 460px !important;
+    }
+    .idx-omnibar-form button span {
+      display: inline-block !important;
+    }
+  }
+}
+
+div.awesomplete > ul {
+  width: 355px;
+}
+
+div.awesomplete mark {
+  background: $mh-color-primary;
+}
+
+.mh-rs-search .idx-omnibar-original-form {
+  display: block !important;
+  padding: 0 !important;
+  margin: auto !important;
+}
+
+.mh-rs-search .idx-omnibar-original-form button[type=submit] {
+  min-width: 48px !important;
+}
+
+.mh-rs-search .idx-omnibar-form > div {
+  width: 80% !important;
+  margin: 0 !important;
+}

@@ -1,0 +1,140 @@
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+@import '../ma-admin-variables.scss';
+/*------------------------------------------------------------------
+2.  GENERAL
+-------------------------------------------------------------------*/
+.acf-box {
+  border: none !important;
+  border-radius: 4px;
+
+  * {
+    border-color: $bordercolor;
+  }
+}
+/*------------------------------------------------------------------
+2.  DARK MODE
+-------------------------------------------------------------------*/
+.ma-admin-dark {
+  .acf-box {
+    background: $darkblack;
+    border-radius: 4px;
+
+    h2 {
+      color: #fff;
+    }
+  }
+
+  .acf-field-list {
+    background: $darkblack !important;
+  }
+
+  .no-fields-message {
+    background: $darkblack !important;
+  }
+
+  .acf-thead {
+    color: #FFF;
+  }
+
+  .acf-tfoot {
+    background: $darkblack !important;
+  }
+
+  .acf-field-list-wrap {
+    border-color: $bordercolor !important;
+
+    * {
+      border-color: $bordercolor;
+    }
+  }
+
+  .acf-table tr.acf-field > td.acf-label,
+  td.acf-input {
+    background: $midblack;
+    border-left: 1px solid $bordercolor !important;
+  }
+
+  .acf-input-append,
+  .acf-input-prepend {
+    background: $midblack;
+    height: 40px;
+  }
+
+  .acf-switch {
+    background: $midblack;
+  }
+
+  .acf-field-object {
+    background: $midblack;
+  }
+
+  .acf-field-object > .handle .acf-icon {
+    color: white;
+  }
+
+  .acf-label {
+    background: none;
+  }
+
+  .acf-fields.-left > .acf-field:before {
+    background: none;
+    border-color: $bordercolor !important;
+  }
+
+  .acf-table {
+    background: none !important;
+
+    td {
+      background: none;
+    }
+  }
+
+  .inside.acf-fields.-left * {
+    border-color: $bordercolor !important;
+  }
+
+  .acf-field-checkbox,
+  .acf-field-file {
+    background: $midblack !important;
+  }
+
+  .acf-field-file,
+  .acf-fields {
+    border: 1px solid $bordercolor !important;
+  }
+
+  .acf-file-uploader .file-wrap {
+    background: $midblack;
+    color: #fff;
+  }
+
+  .hide-if-value {
+    color: #fff;
+  }
+
+  .postbox.acf-postbox {
+    .hndle {
+      &:hover {
+        background: none !important;
+      }
+
+      span {
+        color: #fff !important;
+      }
+    }
+
+    label {
+      color: #fff !important;
+    }
+
+    input {
+      background: $darkestblack !important;
+    }
+
+    .acf-fields > .acf-field {
+      border-top: 1px solid $bordercolor;
+    }
+  }
+}

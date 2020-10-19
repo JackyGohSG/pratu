@@ -1,0 +1,337 @@
+.myhome-idx-wrapper__search_page-searchBase-1005,
+#myhome-idx-wrapper .IDX-category-search {
+  @import 'navigation';
+  .IDX-searchForm-search {
+    @include section-style();
+    @media (max-width: 767px) {
+      padding: 12px 12px !important;
+    }
+    .IDX-clear {
+      display: none !important;
+    }
+  }
+  .IDX-type-listingID .IDX-control-group {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    @include breakpoint(sm) {
+      width: 75% !important;
+    }
+  }
+  .IDX-page-basic .IDX-row-content {
+    @include breakpoint(sm) {
+      margin-left: -6px;
+      margin-right: -6px;
+    }
+  }
+  #IDX-registration {
+    @include section-style();
+    .IDX-errorMessage {
+      display: block;
+      width: 100%;
+      float: left;
+      margin: -12px 6px 12px 6px;
+      .IDX-errorIcon {
+        position: relative;
+        top: 5px;
+      }
+    }
+    #IDX-FormActions {
+      padding: 0px 12px 0 0;
+      border-bottom: none;
+    }
+    #IDX-signupForm {
+      margin: 0;
+      @include breakpoint(sm) {
+        margin-left: 0 -6px;
+        margin-right: 0 -6px;
+      }
+      button {
+        margin: 0 6px;
+      }
+    }
+  }
+  .IDX-emailUpdateSignupText {
+    color: $mh-color-primary;
+  }
+  .IDX-emailUpdateSignupText {
+    padding: 0;
+    margin: 0 0 12px 0;
+  }
+  .IDX-control-group {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    float: left;
+    @include breakpoint(sm) {
+      width: 33.33% !important;
+      padding-left: 6px !important;
+      padding-right: 6px !important;
+    }
+  }
+  #IDX-mlsPt {
+    @include breakpoint(sm) {
+      margin-left: -6px;
+    }
+  }
+
+  #IDX-basicBottom {
+    #IDX-per-group {
+      padding-left: 0 !important;
+    }
+    #IDX-srt-group {
+      padding-right: 0 !important;
+    }
+  }
+  #IDX-loginSubmit {
+    @include button-submit();
+  }
+  #IDX-keepLoggedIn .IDX-checkbox {
+    float: left;
+    width: 100%;
+    display: block;
+    margin-bottom: 24px;
+    margin-top: -12px;
+  }
+  #IDX-loginForm .IDX-control-group {
+    padding: 0 !important;
+  }
+  #IDX-propStatus-group {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  #IDX-pt-group {
+    padding-right: 6px !important;
+  }
+  .IDX-coreFields {
+    width: 100%;
+  }
+  .IDX-row-content {
+    padding: 0;
+  }
+  #IDX-listingID-group {
+    width: 100%;
+  }
+  .IDX-basicRow {
+    margin: 0;
+  }
+  .IDX-coreFields {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  #IDX-pt {
+    margin-right: 12px;
+  }
+  #IDX-cczContainer,
+  #IDX-lp-group,
+  #IDX-hp-group,
+  #IDX-tb-group,
+  #IDX-bd-group,
+  #IDX-sqft-group,
+  #IDX-acres-group {
+    padding: 0 !important;
+    @include breakpoint(sm) {
+      padding: 0 6px !important;
+    }
+  }
+
+  #IDX-basicBottom {
+    background: transparent;
+    padding: 0 0 12px 0;
+    margin: 0;
+  }
+
+  #IDX-basicBottom #IDX-per-group {
+    padding-right: 12px;
+  }
+
+  .IDX-basicRow {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  #IDX-propStatus-group {
+    @include breakpoint(sm) {
+      min-width: 33.33%;
+      padding-right: 12px;
+    }
+  }
+  #IDX-per-group,
+  #IDX-srt-group {
+    width: 33.33%;
+  }
+  .IDX-searchAdvancedFields {
+
+    .IDX-advancedWrap {
+      margin-bottom: 0 !important;
+      width: 100% !important;
+      .IDX-advancedText {
+        padding-bottom: 3px !important;
+      }
+      select {
+        min-height: 100px !important;
+        padding: 6px !important;
+      }
+    }
+  }
+  #IDX-idxID-group,
+  #IDX-pt-group {
+    padding: 0;
+  }
+  #IDX-submit-group {
+    width: 100% !important;
+  }
+  #IDX-resetRow button {
+    width: 100%;
+    position: relative;
+  }
+  @media (max-width: 767px) {
+    #IDX-idxID-group, #IDX-pt-group {
+      width: 100% !important;
+    }
+  }
+  #IDX-per-group,
+  #IDX-srt-group {
+    @media (max-width: 767px) {
+      width: 100% !important;
+    }
+  }
+  #IDX-cczContainer, #IDX-lp-group, #IDX-hp-group, #IDX-tb-group, #IDX-bd-group, #IDX-sqft-group, #IDX-acres-group {
+    @media (max-width: 767px) {
+      width: 100% !important;
+    }
+  }
+  #IDX-advancedSearchFields {
+    margin-top: 18px;
+  }
+  @media (max-width: 767px) {
+    #IDX-propStatus-group {
+      margin-left: 0 !important;
+      width: 100% !important;
+      float: left !important;
+      display: block !important;
+      margin-right: 0 !important;
+    }
+  }
+  #IDX-cczContainer {
+    width: 100% !important;
+    margin-left: -6px !important;
+    .IDX-select.IDX-cczSelect {
+      min-height: 100px !important;
+    }
+    #IDX-cczController {
+      @include breakpoint(sm) {
+        position: absolute !important;
+        left: 35% !important;
+        width: 100% !important;
+      }
+    }
+    .IDX-control-group {
+      span {
+        display: block !important;
+        position: relative !important;
+        top: 28px !important;
+        margin: 0 0 3px 0 !important;
+        left: 6px !important;
+      }
+    }
+  }
+  .IDX-basicRow {
+    margin-bottom: 12px !important;
+    float: left !important;
+    display: block !important;
+    width: 100% !important;
+  }
+  #IDX-addressSearch.IDX-searchGroup {
+    margin-left: 6px;
+  }
+  #IDX-propSubType-group {
+    width: 100% !important;
+  }
+  #IDX-addressWrap {
+    float: left;
+    width: 100%;
+  }
+  .select2-container-multi .select2-choices {
+    height: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block !important;
+    padding: 0 !important;
+    position: static !important;
+    border: none !important;
+    background: transparent !important;
+  }
+  .select2-search-field {
+    display: block !important;
+    width: 100% !important;
+    margin-bottom: 12px;
+    input {
+      margin-bottom: 0 !important;
+      padding-bottom: 0 !important;
+    }
+  }
+  .select2-container-multi .select2-choices {
+    margin-top: 0 !important;
+    overflow: visible !important;
+    list-style: none;
+  }
+  .select2-drop {
+    margin-top: -12px !important;
+    box-shadow: none !important;
+    border: 1px solid #C5C5C5 !important;
+    border-radius: 0 !important;
+  }
+  .select2-search-choice {
+    padding: 6px 24px 6px 12px !important;
+    margin: 0 6px 3px 0 !important;
+    background: #fff !important;
+    border: none !important;
+    .select2-search-choice-close {
+      right: 3px !important;
+      top: 7px !important;
+      left: auto !important;
+    }
+  }
+  #select2-drop {
+    margin-top: -12px;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+  #IDX-advancedFieldsLoading img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #IDX-advancedFieldsLoading {
+    background: none;
+  }
+  @media (max-width: 767px) {
+    #IDX-propSubType-group .IDX-selectableListLabel {
+      width:50%;
+    }
+    #IDX-coreFieldRow #IDX-ccz-group {
+      float: left !important;
+      width: 100% !important;
+      height: auto !important;
+    }
+    #IDX-coreFieldRow #IDX-cczSelects {
+      width: 100% !important;
+      float: left !important;
+      margin-left: 6px !important;
+      float: left !important;
+      clear: both !important;
+      margin-top: 9px !important;
+    }
+    #IDX-cczContainer .IDX-control-group span,
+    #IDX-cczContainer .IDX-control-group span {
+      top: 0 !important;
+    }
+    #IDX-coreFieldRow .IDX-control-group {
+      width: 100% !important;
+    }
+    #IDX-coreFieldRow .IDX-cczContainer {
+      margin-top: -12px !important;
+    }
+  }
+}

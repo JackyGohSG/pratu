@@ -1,0 +1,61 @@
+/*------------------------------------------------------------------
+[wordfence STYLES]
+
+Project:      Admin 2020
+Description:  Loaded if wordfence is installed
+
+[Table of contents]
+
+
+1.  General
+-------------------------------------------------------------------*/
+@import '../ma-admin-variables.scss';
+/*------------------------------------------------------------------
+1.  General
+-------------------------------------------------------------------*/
+.ma-admin-dark {
+  .wf-center-xs {
+    color: #fff !important;
+  }
+
+  .wordfence {
+    .wf-block-title {
+      color: #111;
+    }
+
+    p {
+      color: #999;
+    }
+
+    .wf-dashboard-item {
+      color: #999;
+
+      * {
+        color: #999;
+      }
+    }
+  }
+
+  .wf-tour-pointer {
+    .wp-pointer-content {
+      * {
+        color: #999;
+      }
+
+      .wf-block-title,
+      h1,
+      h2,
+      h3 {
+        color: #111;
+      }
+    }
+  }
+}
+
+#wf-onboarding-tour-overlay {
+  position: fixed !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}

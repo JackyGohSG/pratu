@@ -1,0 +1,92 @@
+html body .ui-dialog[aria-labelledby*=IDX-loadingScreen] {
+  padding: 0;
+  width: auto !important;
+  overflow: visible !important;
+  height: 200px !important;
+  border: none !important;
+  background: transparent !important;
+  .ui-widget-header {
+    a {
+      display: none !important;
+      span {
+        display: none !important;
+      }
+    }
+  }
+  #IDX-loadingScreen,
+  #IDX-loadingScreen:before,
+  #IDX-loadingScreen:after {
+    background: $mh-color-primary;
+    -webkit-animation: mh-loader-animation 1s infinite ease-in-out !important;
+    animation: mh-loader-animation 1s infinite ease-in-out !important;
+    width: 1em !important;
+    height: 4em !important;
+  }
+
+  #IDX-loadingScreen {
+    color: $mh-color-primary;
+    text-indent: -9999em !important;
+    margin: 88px auto !important;
+    position: relative !important;
+    font-size: 11px !important;
+    -webkit-transform: translateZ(0) !important;
+    -ms-transform: translateZ(0) !important;
+    transform: translateZ(0) !important;
+    -webkit-animation-delay: -0.16s !important;
+    animation-delay: -0.16s !important;
+    min-height: initial !important;
+    min-width: initial !important;
+    overflow: initial !important;
+    padding: 0 !important;
+  }
+
+  #IDX-loadingScreen:before,
+  #IDX-loadingScreen:after {
+    position: absolute !important;
+    top: 0 !important;
+    content: '' !important;
+  }
+
+  #IDX-loadingScreen:before {
+    left: -1.5em !important;
+    -webkit-animation-delay: -0.32s !important;;
+    animation-delay: -0.32s !important;
+  }
+
+  #IDX-loadingScreen:after {
+    left: 1.5em !important;
+  }
+
+  @-webkit-keyframes mh-loader-animation {
+    0%,
+    80%,
+    100% {
+      box-shadow: 0 0;
+      height: 4em;
+    }
+    40% {
+      box-shadow: 0 -2em;
+      height: 5em;
+    }
+  }
+
+  @keyframes mh-loader-animation {
+    0%,
+    80%,
+    100% {
+      box-shadow: 0 0;
+      height: 4em;
+    }
+    40% {
+      box-shadow: 0 -2em;
+      height: 5em;
+    }
+  }
+
+  div {
+
+    img {
+      display: none !important;
+    }
+  }
+}

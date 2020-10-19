@@ -1,0 +1,64 @@
+.IDX-quicksearchWrapper {
+  border: 0px solid #ccc !important;
+  box-shadow: none !important;
+  width: 100% !important;
+  -webkit-box-shadow: none !important;
+  text-align: center !important;
+  .IDX-quicksearchForm {
+    padding: 12px !important;
+    background: #f4f4f4 !important;
+    .IDX-qsFieldWrap {
+      margin-top: 0 !important;
+    }
+    .IDX-qsFieldWrap {
+      padding: 2px 5px !important;
+      .IDX-qsLabel {
+        display: block !important;
+        font-weight: 700 !important;
+        padding: 0 0 9px 0 !important;
+        width: 100% !important;
+        margin: 0 !important;
+        text-align: left !important;
+        font-size: 13px !important;
+        text-transform: uppercase !important;
+      }
+      input[type=text],
+      select {
+        text-align: left !important;
+        margin-bottom: 3px !important;
+        color: #222 !important;
+        margin-bottom: 3px !important;
+        font-style: initial !important;
+      }
+    }
+    .IDX-qsSelectInput {
+      width: 100% !important;
+      padding: 12px !important;
+      border: 1px solid #c5c5c5 !important;
+    }
+    .IDX-qsInput.IDX-qsButtonInput {
+      border: none !important;
+      margin-top: 6px !important;
+      background: $mh-color-primary;
+      height: 36px !important;
+      padding: 0 18px !important;
+      text-transform: uppercase !important;
+      color: #fff !important;
+      cursor: pointer !important;
+    }
+  }
+  .IDX-qsInput.IDX-qsButtonInput {
+    min-height: 46px !important;
+  }
+  .IDX-qsFieldWrap:last-child {
+    margin-top: 23px !important;
+  }
+}
+
+.mh-idx-widget__quick-search--type--horizontal .IDX-quicksearchWrapper {
+  .IDX-quicksearchForm {
+    @include breakpoint(sm) {
+      padding: 12px 0 12px 12px !important;
+    }
+  }
+}

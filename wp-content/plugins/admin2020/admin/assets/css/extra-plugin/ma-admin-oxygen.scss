@@ -1,0 +1,69 @@
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+@import '../ma-admin-variables.scss';
+/*------------------------------------------------------------------
+2.  GENERAL
+-------------------------------------------------------------------*/
+.oxygen_page_oxygen_vsb_settings {
+  text-align: left;
+}
+
+.oxygen-admin-screen-home-flex {
+  float: left;
+  width: 100%;
+}
+
+.toggle-indicator:before {
+  content: "\f142";
+  display: inline-block;
+  font: normal 20px/1 dashicons;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none!important;
+}
+
+#ct_builder_shortcodes {
+  width: 100%;
+}
+
+.oxygen-vsb-template-accordion {
+  .accordion-section {
+    margin-bottom: 0;
+
+    .inside {
+      padding: 15px;
+    }
+  }
+}
+
+.oxygen-metabox-control-group {
+  select {
+    background-color: #3d4349 !important;
+  }
+}
+/*------------------------------------------------------------------
+2.  DARK MODE
+-------------------------------------------------------------------*/
+.ma-admin-dark {
+  .oxygen-admin-screen-home-section-design-set-chooser {
+    background: $midblack;
+  }
+
+  .oxygen-vsb-design-set-install-wizard-button {
+    color: #666;
+
+    &:hover {
+      color: $primarylink;
+    }
+  }
+
+  .oxygen-vsb-design-set-install-wizard-design-sets-design-set-info h2 {
+    color: #333;
+  }
+
+  .oxygen-vsb-design-set-install-wizard-design-sets-design-set-info a {
+    color: $primarylink;
+  }
+}

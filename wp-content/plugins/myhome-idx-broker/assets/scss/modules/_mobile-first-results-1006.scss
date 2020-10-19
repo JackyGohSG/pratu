@@ -1,0 +1,503 @@
+/* Results */
+.myhome-idx-wrapper__results-mobileFirstResults-1006 {
+  #IDX-resultsTopActions {
+    padding-top: 12px;
+  }
+  .IDX-contentHeader {
+    background: #f4f4f4;
+    padding: 12px 18px;
+    margin-bottom: 12px;
+    .IDX-control-group {
+      margin-bottom: 0;
+    }
+  }
+  .IDX-MLSCourtesy {
+    display: none !important;
+  }
+  .IDX-propertyTypeHeader {
+    width: 100%;
+    margin: 0 6px 12px;
+    border-bottom: 1px solid $mh-color-primary;
+    color: $mh-color-primary;
+    font-weight: 700;
+  }
+  .IDX-propertyTypeHeader {
+    width: 100%;
+    margin: 0 6px 12px;
+  }
+  .IDX-wrapper-standard .IDX-topAction {
+    width: initial;
+  }
+  @media (max-width: 767px) {
+    .IDX-topAction {
+      width: 100% !important;
+      margin-bottom: 6px;
+    }
+    #IDX-resultsRefineSearchToggle {
+      display: none !important;
+    }
+    #IDX-leadAccountLink {
+      width: 100%;
+      float: left;
+      text-align: left;
+      padding: 0;
+    }
+    #IDX-leadLogOutLink, #IDX-leadInfo {
+      margin-left: 0;
+    }
+  }
+  #IDX-resultsTopActions {
+    .IDX-topAction {
+      width: initial;
+      float: left;
+      margin-right: 6px;
+    }
+    #IDX-modifySearch,
+    #IDX-newSearch,
+    #IDX-saveSearch {
+      background: #fff;
+      border: none;
+      text-transform: uppercase;
+      padding: 6px 12px;
+      margin-right: 12px;
+    }
+  }
+  .IDX-alert-info,
+  .IDX-alert-success {
+    background-color: transparent;
+    border-color: transparent;
+    color: #222;
+    display: inline;
+    padding: 0;
+    overflow: hidden;
+  }
+  .IDX-resultsPhoto {
+    overflow: hidden;
+    @include breakpoint(sm) {
+      .IDX-resultsPhotoLink {
+        padding-bottom: 62.5%;
+        overflow: hidden;
+        .IDX-resultsPhotoImg {
+          position: absolute;
+          left: 0;
+          right: 0;
+          min-height: 100%;
+          min-width: 100%;
+        }
+      }
+    }
+  }
+  .IDX-resultsDescription,
+  .IDX-panel-heading,
+  .IDX-resultsPhotogallery {
+    display: none !important;
+  }
+  .IDX-resultsCellSaved {
+    color: green !important;
+  }
+  .IDX-resultsListings {
+    margin-bottom: 24px;
+  }
+  .IDX-resultsSeparatorText {
+    font-size: 21px;
+    color: #666;
+    font-weight: 700;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .IDX-wrapper-standard hr {
+    margin-top: 9px;
+    margin-bottom: 0;
+    border: none;
+  }
+
+  @media (min-width: 1024px) {
+    .IDX-resultsCellsContainer {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -6px;
+    }
+  }
+
+  .IDX-cellInnerWrapper {
+    background: #f4f4f4;
+  }
+
+  .IDX-cellInnerWrapper {
+    height: 100%;
+  }
+
+  .IDX-resultsCell {
+    margin-bottom: 0;
+    border: 0px solid transparent;
+    padding: 0 0 12px 0;
+    float: left;
+    clear: initial;
+    width: 100%;
+    @include breakpoint(sm) {
+      width: 50%;
+      padding: 0 6px 12px 6px;
+    }
+  }
+
+  .IDX-resultsSeparatorText {
+    font-weight: 700 !important;
+  }
+  .IDX-resultsCell .IDX-panel-body {
+    width: 100%;
+  }
+
+  .IDX-field-listingPrice.IDX-field-price.IDX-field .IDX-label {
+    xdisplay: none;
+  }
+
+  .IDX-field-listingPrice.IDX-field-price.IDX-field .IDX-text {
+    font-size: 16px;
+    color: $mh-color-primary;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+
+  .IDX-resultsMainInfo.IDX-panel-default {
+    padding: 0 12px;
+    background: transparent;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .IDX-resultsPhoto {
+    width: 100%;
+    margin-bottom: 6px;
+    display: block;
+    @include breakpoint(sm) {
+      margin-bottom: 12px;
+    }
+  }
+
+  .IDX-resultsAddress {
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    padding: 0 12px;
+    display: block;
+    width: 100%;
+    margin: 6px 0;
+    @include breakpoint(sm) {
+      margin: 12px 0;
+    }
+  }
+
+  .IDX-resultsAddress a {
+    color: #222;
+    text-decoration: none;
+  }
+
+  .IDX-resultsMainInfoLeft > div:not(:first-child),
+  .IDX-resultsMainInfoRight > div {
+    margin-right: 12px;
+    float: left;
+    width: auto;
+  }
+
+  .IDX-resultsMainInfoLeft > div:not(:first-child) .IDX-label,
+  .IDX-resultsMainInfoRight .IDX-label {
+    width: auto;
+    font-size: 14px;
+    line-height: 24px;
+    color: #222;
+    font-weight: 700;
+  }
+
+  .IDX-cellInnerWrapper {
+    padding-bottom: 32px;
+    position: relative;
+  }
+
+  .IDX-resultsCellActions {
+    position: absolute;
+    bottom: 12px;
+    right: 24px;
+  }
+
+  .IDX-resultsCellAction {
+    height: 36px;
+    line-height: 36px;
+    font-size: 13px;
+    padding: 0;
+    display: inline-block;
+    color: #222;
+    background: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: none;
+    margin-right: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    &:hover {
+      color: #222 !important;
+    }
+  }
+  .IDX-resultsSeparator {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 0;
+    border-top: 0px solid transparent;
+  }
+  .IDX-resultsDetailsLink a {
+    height: 36px;
+    padding: 0px 3px;
+    margin-left: 12px;
+    font-size: 14px;
+    line-height: 32px;
+    display: inline-block;
+    background: transparent;
+    border: 2px solid $mh-color-primary;
+    color: $mh-color-primary;
+    text-align: center;
+    text-transform: uppercase;
+    &:hover {
+      color: #fff !important;
+    }
+  }
+
+  .IDX-resultsDetailsLink a:hover {
+    background: $mh-color-primary;
+    color: #fff;
+  }
+
+  .IDX-mlsContainer {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+  }
+
+  .IDX-resultsText {
+    font-size: 14px;
+  }
+  .IDX-field-listingPrice .IDX-label {
+    display: none;
+  }
+  .IDX-panel-body {
+    width: 100% !important;
+  }
+  .IDX-resultsPhotoLink {
+    display: block;
+    text-align: center;
+  }
+  .IDX-panel-default {
+    margin-bottom: 0;
+  }
+  @media (max-width: 1024px) {
+    .IDX-wrapper-standard .IDX-row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  #IDX-map {
+    margin-bottom: 6px;
+    float: left;
+  }
+  .IDX-panel {
+    border: none;
+  }
+  .IDX-panel-body {
+    padding: 0;
+  }
+  .IDX-resultsPhotoImg {
+    border: 6px solid #f4f4f4 !important;
+  }
+  .IDX-resultsAddressLink {
+    font-weight: 700 !important;
+  }
+  #IDX-resultsHeader .IDX-pagination-action {
+    display: none;
+  }
+  #IDX-resultsFooter {
+    width: 240px;
+    margin: 0 auto;
+    .IDX-pagination-action {
+      background: #fff;
+    }
+    .select2-arrow {
+      display: none;
+    }
+    .select2-container .select2-choice,
+    .select2-container .select2-choice .select2-arrow {
+      border: none;
+    }
+    .select2-choice {
+      pointer-events: none;
+      cursor: default;
+    }
+    .IDX-btn.IDX-btn-default.IDX-disabled {
+      opacity: 0;
+    }
+    .IDX-btn {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      box-shadow: none;
+    }
+    .IDX-pagination-action {
+      border: none;
+    }
+    .IDX-pagination-action a {
+      border: none;
+    }
+    #IDX-pagination .select2-choice {
+      padding: 0 !important;
+    }
+  }
+  .IDX-resultsCellSaved {
+    line-height: 36px;
+    height: 36px;
+    padding: 0px 12px;
+    display: inline-block;
+    opacity: 1;
+  }
+  .IDX-resultsPhotoLink img[src*="customNoPhoto"] {
+    width: 100%;
+  }
+  .IDX-resultsVirtualTour {
+    display: none !important;
+  }
+
+  #IDX-agentbio {
+    margin: 0 0 24px 0 !important;
+    @media (min-width: 992px) {
+      .IDX-row__equal > div[class*='col-'] {
+        display: block !important;
+        width: 100% !important;
+      }
+    }
+
+    .col-xs-12.IDX-bioExpand.IDX-text-center {
+      display: none !important;
+    }
+
+    .IDX-bioDetails__inner span {
+      line-height: 24px;
+      font-size: 16px !important;
+    }
+
+    .IDX-rosterAgentImage {
+      border-radius: 50% !important;
+      display: block !important;
+    }
+    .IDX-actionLinks a {
+      color: $mh-color-primary;
+      text-decoration: none;
+    }
+  }
+  #IDX-agentInfo-group {
+    padding: 6px 0px;
+  }
+  .IDX-bioName {
+    font-size: 21px;
+    font-weight: 700;
+    font-family: $font-two;
+  }
+  #IDX-showAmortizationPagination {
+    margin-bottom: 24px !important;
+  }
+  #IDX-showAmortizationContent {
+    background-color: transparent !important;
+  }
+  #IDX-main table {
+    background-color: #fff !important;
+  }
+  .IDX-resultsSaveProperty a {
+    position: absolute;
+    right: 110px;
+  }
+  .IDX-resultsSaveProperty {
+    display: block !important;
+  }
+  .IDX-resultsOpenHouse {
+    display: none !important;
+  }
+  #IDX-resultsMLSRights {
+    font-size: 10px !important;
+  }
+
+  #IDX-refinementSearchForm {
+    margin-top: 12px !important;
+  }
+
+  #IDX-resultsRefineSearchWrap {
+    padding: 0 !important;
+    background-color: transparent !important;
+    margin-bottom: 12px !important;
+    .IDX-controls span {
+      color: #222 !important;
+    }
+    select,
+    input[type=text],
+    input:not([type='checkbox']):not([type='submit']):not([type='button']):not([type='radio']) {
+      border: 0px solid transparent !important;
+      height: initial !important;
+      text-align: left !important;
+      padding: 7px 6px !important;
+      background: transparent !important;
+    }
+    .select2-arrow {
+      margin-right: 2px;
+      height: 35px;
+    }
+    .IDX-half:first-child {
+      padding-right: 6px;
+    }
+    .IDX-half:last-child {
+      padding-left: 6px;
+    }
+  }
+
+  #IDX-resultsRefineSearchWrap .IDX-price-group {
+    margin-left: -6px !important;
+    margin-right: -6px !important;
+    & > div {
+      margin-left: 6px !important;
+      margin-right: 6px !important;
+    }
+  }
+
+  #IDX-resultsRefineSearchWrap a:hover,
+  #IDX-resultsRefineSearchWrap a:focus {
+    text-decoration: none !important;
+  }
+
+  #IDX-resultsRefineSearchWrap .IDX-control-group {
+    margin-bottom: 12px !important;
+  }
+
+  #IDX-resultsRefineSubmit {
+    @include button-submit();
+  }
+  .IDX-mlsContainer {
+    position: static !important;
+    margin-bottom: 12px !important;
+    float: left !important;
+  }
+
+  .IDX-mlsContainer .IDX-MLSCourtesy {
+    display: block !important;
+    float: left !important;
+    margin-left: 12px !important;
+    font-size: 14px !important;
+  }
+  
+  .IDX-MLSLogo {
+    position: absolute !important;
+    top: 12px !important;
+    right: 12px !important;
+  }
+}
+
+#IDX-refinementSearchForm #IDX-ccz-group.IDX-control-group .IDX-controls #s2id_IDX-ccz-select.select2-container.select2-container-multi.IDX-select .select2-choices .select2-search-field .select2-input.select2-default#s2id_autogen3[type=text]:not([type='checkbox']):not([type='submit']):not([type='button']):not([type='radio']) {
+  color: #fff !important;
+  opacity: 0 !important;
+}

@@ -1,0 +1,193 @@
+$mh-color-primary: #29aae3;
+$font-one: Lato, Arial, Helvetica, sans-serif;
+$font-two: Play, Arial, Helvetica, sans-serif;
+
+// Media queries breakpoints
+$screen-xs: 480px;
+$screen-sm: 768px;
+$screen-md: 1024px;
+$screen-lg: 1200px;
+$mobile-navbar-max-width: 1023px;
+
+@mixin clearfix {
+  &:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
+
+@mixin text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin button-submit() {
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 24px;
+  border: none;
+  display: inline-block;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 0;
+  background: $mh-color-primary;
+  color: #fff;
+  position: relative;
+  &:after {
+    content: '';
+    background: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  &:hover {
+    color: #fff;
+    background: $mh-color-primary;
+    &:after {
+      opacity: 0.1;
+    }
+  }
+}
+
+@mixin button-reset() {
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 24px;
+  border: none;
+  display: inline-block;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  background: #fff;
+  color: #222;
+  position: relative;
+  &:after {
+    content: '';
+    background: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  &:hover {
+    &:after {
+      opacity: 0.1;
+    }
+  }
+}
+
+@mixin button-normal() {
+  height: 36px;
+  font-size: 16px;
+  display: inline-block;
+  padding: 6px 12px;
+  line-height: 24px;
+  border: 1px solid #ccc;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  background: #fff;
+  color: #222;
+}
+
+@mixin section-style() {
+  padding: 24px 18px;
+  background: #f4f4f4;
+  border: none;
+  width: 100%;
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222;
+  margin-bottom: 12px;
+  @include clearfix();
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin mh-transition($speed: 0.2s) {
+  @include transition($speed ease-in-out);
+}
+
+@mixin mh-img-hover() {
+  position: relative;
+  display: block;
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    height: 100%;
+    opacity: 0;
+    width: 100%;
+    background: #000;
+    @include transition(opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1));
+  }
+  @include breakpoint(1025px) {
+    &:hover {
+      &:after {
+        opacity: 0.3;
+      }
+    }
+  }
+}
+
+@mixin section-heading-style() {
+  text-align: center;
+  font-size: 21px;
+  margin-bottom: 18px;
+  padding-bottom: 18px;
+  font-weight: 700;
+  position: relative;
+  text-transform: uppercase;
+  &:after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@mixin breakpoint($point) {
+  @if $point == xs {
+    @media (min-width: $screen-xs) {
+      @content;
+    }
+  } @else if $point == sm {
+    @media (min-width: $screen-sm) {
+      @content;
+    }
+  } @else if $point == md {
+    @media (min-width: $screen-md) {
+      @content;
+    }
+  } @else if $point == lg {
+    @media (min-width: $screen-lg) {
+      @content;
+    }
+  } @else {
+    @media (min-width: $point) {
+      @content;
+    }
+  }
+}

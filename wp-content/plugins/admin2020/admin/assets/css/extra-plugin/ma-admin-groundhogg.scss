@@ -1,0 +1,133 @@
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+@import '../ma-admin-variables.scss';
+/*------------------------------------------------------------------
+2.  GENERAL
+-------------------------------------------------------------------*/
+#funnel-form {
+  .header-wrap {
+    .funnel-editor-header {
+      top: 80px !important;
+    }
+
+    .funnel-editor-header.sub-header {
+      top: 140px !important;
+    }
+
+    .dashicons-yes {
+      color: #666 !important;
+    }
+
+    .save-text {
+      color: #666 !important;
+    }
+  }
+}
+
+.groundhogg_page_gh_funnels {
+  #funnel-form {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    overflow: auto;
+  }
+
+  #poststuff {
+    margin-top: 97px;
+  }
+}
+
+.wpgh-funnel-builder {
+  margin-top: 187px !important;
+
+  #post-body {
+    margin: 0 !important;
+    left: 0 !important;
+  }
+
+  .sidebar {
+    margin: 0 !important;
+    left: 0 !important;
+    padding: 0 !important;
+  }
+
+  #postbox-container-2 {
+    margin-top: 0;
+  }
+}
+
+.funnel-editor-header {
+  .button,
+  a {
+    line-height: 2;
+    background: none;
+  }
+}
+/*------------------------------------------------------------------
+2.  DARK MODE
+-------------------------------------------------------------------*/
+.ma-admin-dark.groundhogg_page_gh_funnels {
+  #funnel-form {
+    * {
+      color: #666;
+    }
+  }
+
+  .popup-window {
+    * {
+      color: #666;
+    }
+  }
+
+  .button-primary {
+    color: #fff;
+  }
+}
+
+.ma-admin-dark {
+  .wpgh-funnel-builder {
+    input,
+    select,
+    textarea {
+      background: #fff !important;
+      color: $midblack !important;
+    }
+
+    .select2-search__field {
+      background: #fff !important;
+      color: #999 !important;
+    }
+
+    * {
+      color: #999;
+    }
+
+    .form-table {
+      background: #fff;
+    }
+  }
+}
+
+.ma-admin-dark.groundhogg_page_gh_funnels {
+  .steps-select {
+    .nav-tab-wrapper a {
+      background: #fff !important;
+    }
+  }
+
+  .button {
+    background: #fff;
+  }
+
+  .select2-search__field {
+    background: #fff !important;
+    color: $midblack !important;
+  }
+
+  .select2-results__option {
+    color: $midblack !important;
+  }
+}

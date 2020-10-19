@@ -1,0 +1,132 @@
+/*------------------------------------------------------------------
+[Yoast Seo STYLES]
+
+Project:      Admin 2020
+Description:  Loaded if Yoast Seo is installed
+
+[Table of contents]
+
+
+1.  Variables
+2.  General
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+@import '../ma-admin-variables.scss';
+/*------------------------------------------------------------------
+2.  General
+-------------------------------------------------------------------*/
+.feAXaK {
+  right: 70px !important;
+  bottom: 30px !important;
+}
+
+#wpseo-tabs {
+  float: left;
+  width: 100%;
+  position: relative;
+
+  a {
+    float: left;
+    background: #fff;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 30px;
+    font-size: 0.875rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    color: #999;
+    margin-bottom: 15px;
+  }
+
+  a.nav-tab-active {
+    color: $primarylink;
+  }
+}
+
+.wpseotab {
+  float: left;
+  width: 100%;
+}
+
+#wpseo-submit-container-float {
+  right: 70px;
+  position: absolute;
+  top: 70px;
+}
+
+#wpseo-submit-container-fixed {
+  right: 0;
+  left: 250px;
+  width: 100%;
+  position: fixed;
+  background: none;
+}
+
+.ma-admin-dark {
+  #wpseo-settings-general,
+  .tab-block,
+  .yoast-container,
+  .yoast-sidebar__section {
+    background: $darkblack;
+    background-color: $darkblack !important;
+    border-color: $bordercolor;
+    border-radius: 4px;
+  }
+
+  .toggleable-container-trigger {
+    color: #fff;
+  }
+
+  .yoast-alerts-header {
+    background: $darkblack;
+    background-color: $darkblack !important;
+    border-color: $bordercolor !important;
+  }
+
+  .yoast-alert {
+    background: $darkblack;
+    background-color: $darkblack !important;
+  }
+
+  .yoast_premium_upsell {
+    background: $darkblack;
+    background-color: $darkblack !important;
+    border-color: $bordercolor;
+    border-radius: 4px;
+  }
+
+  #wpseo-tabs {
+    a {
+      color: #999;
+      background: $midblack;
+    }
+
+    a.nav-tab-active {
+      color: $primarylink;
+    }
+  }
+
+  #wpseo-submit-container-fixed {
+    background: none;
+  }
+
+  .wpseo-metabox {
+    button,
+    h1,
+    h2,
+    h3 {
+      color: #fff !important;
+    }
+
+    * {
+      color: #999;
+      background: none !important;
+      border-color: $bordercolor;
+    }
+
+    button span span {
+      color: #fff !important;
+    }
+  }
+}

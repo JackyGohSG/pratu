@@ -1,0 +1,275 @@
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+@import '../ma-admin-variables.scss';
+/*------------------------------------------------------------------
+2.  GENERAL
+-------------------------------------------------------------------*/
+.rank-math-ui {
+  float: left;
+  margin-bottom: 30px;
+}
+
+.rank-math-wrap {
+  margin: 30px 0 0 0 !important;
+  width: 100% !important;
+}
+
+#toplevel_page_rank-math {
+  img {
+    background-color: rgba(197, 197, 197, 0.4);
+  }
+}
+
+.rank-math-box-help {
+  float: left;
+  width: 100%;
+}
+
+.rank-math-box {
+  float: left;
+  width: 100%;
+}
+
+.rank-math-wrap {
+  .cmb2-form {
+    float: left;
+    width: 100%;
+  }
+
+  form {
+    .form-table {
+      padding: 0;
+      border: 0;
+      box-shadow: none;
+    }
+  }
+}
+
+.nav-tab-wrapper {
+  float: left;
+  padding: 0;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  font-size: 0.875rem;
+  color: white;
+  font-size: 0;
+
+  a {
+    color: #999;
+    font-size: 0.875rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 10px;
+    border-radius: 30px !important;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    border: none!important;
+    background: #fff !important;
+
+    &::after {
+      display: none;
+    }
+
+    &:hover {
+      text-decoration: none;
+      opacity: 0.8;
+    }
+  }
+
+  a.current {
+    color: #fff;
+  }
+
+  a.nav-tab-active {
+    background: $primarylink !important;
+    color: #fff !important;
+  }
+}
+
+.ma-admin-dark.rank-math-page {
+  background: $darkestblack;
+
+  * {
+    border-color: $bordercolor;
+  }
+
+  .nav-tab-wrapper {
+    a {
+      background: $darkblack !important;
+      color: #fff !important;
+    }
+
+    a.nav-tab-active {
+      background: $primarylink !important;
+    }
+  }
+
+  .cmb-form > footer.form-footer {
+    background: none !important;
+    border: none !important;
+  }
+
+  .rank-math-tab {
+    h3 {
+      color: #fff;
+    }
+
+    p {
+      color: #999;
+    }
+  }
+
+  .rank-math-breadcrumbs .active {
+    color: #fff !important;
+  }
+
+  .cmb-form > header,
+  .rank-math-tabs > .cmb-row.tab-header {
+    background: $darkblack !important;
+    color: #fff !important;
+
+    h3 {
+      color: #fff !important;
+    }
+  }
+
+  .form-table {
+    * {
+      border-color: $bordercolor !important;
+    }
+
+    label {
+      color: #fff;
+    }
+  }
+
+  .rank-math-preview-title h5 {
+    color: $primarylink !important;
+  }
+
+  .rank-math-wrap-settings .rank-math-tabs-navigation .separator {
+    background: $midblack !important;
+    color: #999 !important;
+  }
+
+  .rank-math-list-icon li strong,
+  h1 {
+    color: #fff;
+  }
+
+  #wpwrap {
+    background: $darkestblack;
+  }
+
+  .dashboard-wrapper:before {
+    background: $darkestblack;
+    border: none !important;
+  }
+
+  .rank-math-header {
+    background: $darkblack;
+  }
+
+  #toplevel_page_rank-math {
+    img {
+      background-color: rgba(197, 197, 197, 0);
+    }
+  }
+
+  .rank-math-box {
+    background: $darkblack;
+  }
+
+  .col {
+    form {
+      background: $darkblack;
+    }
+  }
+
+  .cmb2-form {
+    background: $darkblack;
+  }
+
+  .status {
+    background: $midblack !important;
+    border: none !important;
+  }
+
+  .rank-math-box header {
+    border-color: $bordercolor !important;
+  }
+
+  .rank-math-tabs-navigation:not(.rank-math-custom) a {
+    background: $darkblack;
+    border: none;
+  }
+
+  .rank-math-tabs-content {
+    background: $darkblack;
+  }
+
+  .cmb-row {
+    border-color: $bordercolor;
+
+    .cmb-th label {
+      color: #fff;
+    }
+  }
+
+  .rank-math-ui.settings-footer {
+    background: $darkblack;
+    border-color: $bordercolor;
+  }
+
+  .rank-math-search-options .search-field input {
+    border-color: $bordercolor;
+    height: 40px;
+  }
+
+  input:focus {
+    background: $midblack;
+  }
+
+  .rank-math-console-db-info {
+    background: $midblack;
+  }
+
+  .rank-math-seo-analysis-header {
+    background: $darkblack;
+  }
+}
+
+.ma-admin-dark.rank-math_page_rank-math-role-manager {
+  .cmb-form {
+    background: none;
+    border-color: $bordercolor;
+  }
+
+  .cmb-big-labels .cmb2-checkbox-list li label {
+    background: $midblack;
+    border-color: $bordercolor;
+  }
+
+  .cmb-big-labels .cmb2-checkbox-list li input:checked+label {
+    background: $primarylink;
+    border-color: $bordercolor;
+  }
+}
+
+.ma-admin-dark {
+  .rank-math-tabs .components-tab-panel__tabs {
+    background: $darkblack !important;
+  }
+
+  .rank-math-tabs .components-tab-panel__tab-content .components-panel__body {
+    background: $darkblack !important;
+  }
+
+  .serp-preview {
+    background: none !important;
+
+    .serp-title {
+      color: $primarylink !important;
+    }
+  }
+}

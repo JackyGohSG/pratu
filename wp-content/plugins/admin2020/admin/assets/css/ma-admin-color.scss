@@ -1,0 +1,522 @@
+/*------------------------------------------------------------------
+[COLOR STYLES]
+
+Project:      Admin 2020
+Description:  ALL WP ADMIN COLORS
+
+[Table of contents]
+
+
+1.  Variables
+2.  LIGHT STYLES
+3.  DARK DARK STYLES
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+@import 'ma-admin-variables.scss';
+/*------------------------------------------------------------------
+2.  LIGHT STYLES
+-------------------------------------------------------------------*/
+#TB_window,
+#admin2020dragHandle,
+#admin2020dragHandle,
+#adminmenumain,
+#login .message,
+#menu-management,
+#plugin-information-footer,
+#plugin-information-tabs a,
+#post-body-content,
+#template,
+#templateside,
+#widgets-left,
+#widgets-right,
+.admin2020_bulkactions,
+.admin2020_save_float,
+.admin2020iconnav button.uk-active,
+.admin2020standardBackground,
+.admin2020uploadMonitor,
+.admin2020uploadMonitor,
+.attachments,
+.block-editor-editor-skeleton__content,
+.bulkactions,
+.button,
+.button-primary,
+.error,
+.filter-drawer,
+.form-table,
+.inline-edit-row,
+.ma-admin-card,
+.ma-admin-dark.is-fullscreen-mode .block-editor-editor-skeleton,
+.ma-admin-menu-wrap,
+.media-frame .media-frame-title,
+.media-frame-router .media-router .media-menu-item,
+.media-frame-toolbar,
+.media-modal,
+.menu-delete,
+.nav-menu-meta,
+.nav-tab-wrapper a,
+.notice,
+.open-plugin-details-modal img,
+.page-title-action,
+.plugin-card,
+.postbox,
+.quicktags-toolbar,
+.row-actions,
+.theme,
+.theme-actions,
+.theme-overlay .theme-wrap,
+.theme-overlay .theme-wrap .theme-about,
+.updated,
+.updates-table,
+.upload-plugin,
+.upload-theme,
+.view-grid.current::after,
+.view-list.current::after,
+.welcome-panel,
+.widget.ui-draggable-dragging,
+.wp-list-table,
+body.is-fullscreen-mode .block-editor-editor-skeleton,
+body.login #loginform,
+body.login #lostpasswordform,
+input,
+select,
+span.counter-back,
+span.pagination-links .button,
+textarea {
+  background: $white;
+}
+
+.column-title .post-state {
+  background: $warninglink;
+}
+
+.ab-sub-wrapper,
+.edit-post-fullscreen-mode-close.has-icon:hover {
+  background: $white !important;
+}
+
+#wpadminbar {
+  #wp-admin-bar-root-default,
+  #wp-admin-bar-top-secondary {
+    li .ab-item {
+      background: none !important;
+    }
+  }
+}
+
+.uk-card-default,
+.uk-dropdown {
+  background: $white !important;
+}
+
+.admin2020folderCount,
+.admin2020totalCount,
+.update-plugins,
+.update-plugins {
+  background: $bordercolor !important;
+}
+
+.admin2020circle,
+.admin2020circle,
+.button-primary,
+.button-primary:hover,
+.filter-count .theme-count,
+.page-title-action,
+.page-title-action:hover,
+.tablenav.top .bulkactions #doaction,
+.theme-overlay .current-label,
+.wp-badge,
+.wp-heading-inline title-count.theme-count {
+  background: $primarylink;
+}
+
+.category-tabs li,
+.filter-links li,
+.nav-tab-wrapper,
+.subsubsub li {
+  a {
+    background: $white;
+  }
+
+  a.current {
+    background: $primarylink;
+  }
+}
+
+.button-primary,
+.page-title-action {
+  background-color: $primarylink !important;
+}
+
+.button-primary:hover,
+.page-title-action:hover {
+  background-color: $primarylinkdarker !important;
+}
+
+#TB_overlay,
+.admin2020_image_edit_wrap,
+.media-modal-backdrop {
+  background: $darkestblack;
+}
+
+.uk-offcanvas-bar {
+  background: $darkblack;
+}
+
+.admin2020circle.pageviews,
+.admin2020uploadMonitor::before {
+  background: $pinklink;
+}
+
+.admin2020-network-page::before,
+.admin2020imageshift,
+.admin2020imageshift,
+.post-action,
+.star,
+.uk-nav-default > li.uk-active > a,
+.view-grid::after,
+.view-list::after {
+  background-color: $bordercolor;
+}
+
+.admin2020imageshift {
+  background-color: rgba(0,0,0,0.3);
+}
+
+#TB_closeWindowButton::after,
+.post-action:hover {
+  background: $bordercolordarker;
+}
+
+.attachments .attachment,
+.button:hover,
+.image-editor,
+.ma-admin-expander,
+.ma-admin-shrinker,
+.media-frame-title,
+.media-modal-content,
+.uploader-inline,
+body,
+body.login,
+html {
+  background: $lightgrey;
+}
+
+.dashicons-star-filled,
+.dashicons-star-half,
+.star-full,
+.star-half,
+.star-half::after,
+span.counter-bar {
+  background: $starcolor;
+}
+
+select {
+  background-color: $white !important;
+}
+
+input[type=checkbox]:checked {
+  background-color: $primarylink !important;
+}
+
+#wp-post_preview_editor-wrap {
+  .wp-editor-tabs {
+    button {
+      background: $midblack;
+    }
+  }
+
+  div.mce-toolbar-grp {
+    background: $midblack;
+  }
+
+  .mce-toolbar {
+    .mce-btn.mce-active,
+    .mce-btn:hover {
+      background: $darkblack;
+    }
+  }
+
+  .mce-toolbar .mce-btn-group .mce-btn.mce-listbox {
+    background: $darkblack;
+  }
+
+  .quicktags-toolbar {
+    background: $midblack;
+
+    input {
+      background: $darkblack;
+    }
+  }
+}
+
+.admin2020_image_edit_wrap {
+  background: $darkestblack;
+}
+
+.admin2020_input_editable:focus {
+  background: $midblack !important;
+}
+
+.wp-customizer {
+  #customize-sidebar-outer-content,
+  .wp-full-overlay-sidebar {
+    background: $white;
+  }
+}
+/*------------------------------------------------------------------
+2.  DARK STYLES
+-------------------------------------------------------------------*/
+.ma-admin-dark {
+  background: $darkestblack;
+
+  .editor-post-publish-panel__header,
+  .theme-wrap .theme-heade,
+  select {
+    background-color: $darkblack !important;
+  }
+
+  .ma-admin-bar {
+    background: $darkestblack;
+  }
+
+  .category-tabs li,
+  .filter-links li,
+  .nav-tab-wrapper,
+  .subsubsub li {
+    a {
+      background: $darkblack;
+    }
+
+    a.current {
+      background: $primarylink;
+    }
+  }
+
+  #adminmenumain,
+  .admin2020_bulkactions,
+  .admin2020standardBackground,
+  .admin2020uploadMonitor,
+  .button,
+  .components-modal__content,
+  .daterangepicker .calendar-table,
+  .menu-delete,
+  .theme-wrap .theme-about,
+  .theme-wrap .theme-actions,
+  .widgets-chooser-button,
+  input,
+  textarea {
+    background-color: $darkblack;
+  }
+
+  .ma-admin-menu-wrap {
+    background-color: $darkestblack;
+  }
+
+  .admin2020loader::after,
+  .button-primary {
+    background: $primarylink;
+  }
+
+  .view-grid.current::after,
+  .view-list.current::after,
+  span.pagination-links .button {
+    background: $bordercolor;
+  }
+
+  #TB_window,
+  #plugin-information-tabs a,
+  .admin2020_slider,
+  .admin2020iconnav button.uk-active,
+  .button:hover,
+  .components-notice,
+  .daterangepicker td.available:hover,
+  .daterangepicker th.available:hover,
+  .error,
+  .inline-edit-row,
+  .ma-admin-expander,
+  .ma-admin-shrinker,
+  .nav-tab-wrapper a,
+  .notice,
+  .uk-background-muted,
+  .updated,
+  .wp-pointer-content,
+  ::-webkit-scrollbar-thumb,
+  button.uk-active {
+    background: $midblack;
+  }
+
+  .admin2020_select_multiple,
+  .components-panel__body-toggle.components-button:hover,
+  .daterangepicker .ranges li:hover,
+  .mce-container,
+  .uk-dropdown {
+    background: $midblack !important;
+  }
+
+  .ma-admin-menu-shrink.ma-admin-dark {
+    #adminmenumain {
+      .uk-nav-sub li {
+        background: $darkblack !important;
+      }
+    }
+  }
+
+  #adminmenuwrap,
+  #menu-management,
+  #plugin-information-footer,
+  #post-body-content,
+  #postbox-container-1 .meta-box-sortables:not(#normal-sortables),
+  #poststuff #postbox-container-1 .meta-box-sortables,
+  #template .notice,
+  #templateside,
+  #widgets-left,
+  #widgets-right,
+  .admin2020_save_float,
+  .bulkactions,
+  .components-modal__header,
+  .daterangepicker,
+  .filter-drawer,
+  .form-table,
+  .image-editor,
+  .ma-admin-card,
+  .media-frame .media-frame-title,
+  .media-frame-toolbar,
+  .media-modal,
+  .media-modal .media-frame-title,
+  .media-router .media-menu-item,
+  .nav-menu-meta,
+  .notice .wp-list-table,
+  .plugin-card,
+  .postbox,
+  .quicktags-toolbar,
+  .row-actions,
+  .theme,
+  .update-nag,
+  .updates-table,
+  .upload-plugin,
+  .upload-theme,
+  .uploader-inline,
+  .welcome-panel,
+  .widget.ui-draggable-dragging,
+  .wp-list-table {
+    background: $darkblack;
+  }
+
+  .ab-sub-wrapper,
+  .editor-post-publish-panel,
+  .editor-post-publish-panel__prepublish .components-panel__body,
+  .uk-card-default {
+    background: $darkblack !important;
+  }
+
+  .admin2020loaderwrap .admin2020loader,
+  .edit-post-layout__metaboxes,
+  .ma-admin-search-results,
+  .media-modal-content,
+  ::-webkit-scrollbar,
+  ::-webkit-scrollbar-track {
+    background: $darkestblack;
+  }
+
+  .admin2020-network-page::before {
+    background: $metatext;
+  }
+
+  .daterangepicker {
+    td.off {
+      background: $midblack;
+    }
+
+    td.in-range {
+      background: $primarylink;
+    }
+
+    td.start-date {
+      background: $primarylink;
+    }
+
+    td.end-date {
+      background: $primarylink;
+    }
+  }
+
+  .block-editor__container {
+    .block-editor-editor-skeleton__footer,
+    .components-drop-zone__provider,
+    .edit-post-header,
+    .edit-post-sidebar {
+      background: $darkblack;
+    }
+
+    .components-button:not(.components-toolbar__control):not(.block-editor-block-switcher__toggle):not(.components-dropdown-menu__toggle) {
+      color: $lightgrey;
+    }
+
+    .ab-sub-wrapper,
+    button.is-secondary {
+      background-color: $darkblack !important;
+    }
+
+    button.is-primary {
+      background: $primarylink !important;
+    }
+
+    .components-panel__body-title:active,
+    .components-panel__body-title:focus,
+    .components-panel__body-title:hover,
+    .components-panel__body-title:visited {
+      background: $darkestblack !important;
+    }
+
+    .components-dropdown-menu__menu,
+    .components-popover__content {
+      background: $midblack;
+    }
+  }
+
+  .edit-post-fullscreen-mode-close {
+    background-color: $darkblack !important;
+
+    &:hover {
+      background-color: $midblack !important;
+    }
+  }
+
+  .components-modal__frame {
+    .edit-post-manage-blocks-modal__category-title {
+      background: $darkblack;
+    }
+
+    .components-button:hover {
+      background: $midblack !important;
+    }
+  }
+
+  .components-button:not(:disabled):not([aria-disabled=true]).editor-post-last-revision__title:hover,
+  .components-panel__body-toggle.components-button:focus:not(:disabled):not([aria-disabled=true]) {
+    background: $darkestblack !important;
+  }
+
+  #wpadminbar {
+    #wp-admin-bar-root-default,
+    #wp-admin-bar-top-secondary {
+      li .ab-item {
+        background: none !important;
+      }
+    }
+  }
+}
+
+.ma-admin-dark::-webkit-scrollbar-track {
+  background-color: $darkestblack;
+}
+
+.ma-admin-dark::-webkit-scrollbar {
+  background-color: $darkestblack;
+}
+
+.ma-admin-dark::-webkit-scrollbar-thumb {
+  background-color: $midblack;
+}

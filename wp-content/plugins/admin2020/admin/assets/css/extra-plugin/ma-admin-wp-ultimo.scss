@@ -1,0 +1,246 @@
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+@import '../ma-admin-variables.scss';
+/*------------------------------------------------------------------
+2.  GENERAL
+-------------------------------------------------------------------*/
+[class*=" wp-ultimo_page"] {
+  div.wp-filter li.selector-inactive {
+    border: none !important;
+  }
+
+  #wpbody-content {
+    margin-top: 30px !important;
+  }
+
+  #wp-filter-search-input {
+    float: right;
+  }
+
+  .theme {
+    h2 {
+      padding: 0 30px 30px;
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .theme-actions {
+      opacity: 1 !important;
+      padding: 0 30px 30px;
+    }
+  }
+
+  #summary {
+    float: left;
+    width: 100%;
+  }
+}
+
+#wpultimo-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: inline;
+  padding: 15px !important;
+  height: auto !important;
+  margin-left: 0 !important;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.wu-badge {
+  width: 150px;
+  height: 150px;
+  background-position: 50% 20%;
+  background-size: 65%;
+  background-repeat: no-repeat;
+  text-align: center;
+  line-height: 255px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  position: absolute;
+  right: 70px;
+  top: 70px;
+}
+
+#wp-ultimo-wrap {
+  margin-top: 30px;
+
+  .row {
+    float: left !important;
+  }
+
+  .nav-tab-wrapper {
+    border-bottom: none !important;
+  }
+
+  .page-title-action {
+    top: 100px;
+  }
+
+  #post-body-content {
+    width: 100%;
+    padding: 0;
+    box-shadow: none;
+    background: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #postbox-container-2 {
+    margin-top: 0;
+  }
+
+  .meta-box-sortables {
+    width: 100%;
+  }
+
+  #wp-ultimo-mrr {
+    width: 100%;
+  }
+
+  .wu-inside-graphs {
+    border: none;
+  }
+}
+
+.toplevel_page_wp-ultimo {
+  .form-table {
+    margin-bottom: 30px;
+  }
+}
+
+.woo-nav-tab-wrapper {
+  margin-bottom: 30px;
+  float: left;
+
+  a {
+    float: left;
+    background: #fff;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 30px;
+    font-size: 0.875rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+}
+
+#wp-ultimo-send-broadcast {
+  width: calc(100% - 30px) !important;
+}
+
+#wp-ultimo-broadcast-preview,
+#wp-ultimo-past-broadcasts {
+  width: 100% !important;
+}
+/*------------------------------------------------------------------
+2.  DARK MODE
+-------------------------------------------------------------------*/
+.ma-admin-dark {
+  #wp-ultimo-broadcast-preview .inside {
+    background: $darkblack;
+  }
+
+  ul.wu-message-type-tabs {
+    background: none;
+    border-bottom: 0;
+    margin-bottom: 30px;
+
+    li {
+      a {
+        background: none;
+        border-radius: 4px;
+        margin: 0;
+        border: 1px solid #fff;
+        margin-bottom: 5px;
+      }
+    }
+
+    li.active a {
+      color: $primarylink !important;
+    }
+  }
+
+  #wpultimo-header {
+    background: $darkblack;
+    border: none;
+  }
+
+  .woo-nav-tab-wrapper {
+    a {
+      background: $midblack;
+      border: none !important;
+    }
+  }
+
+  .wu-tooltip {
+    background: $midblack !important;
+  }
+
+  #wp-ultimo-general .wu_status_list {
+    li.most-popular-plan,
+    li.stretched,
+    li.total-revenue,
+    li.users-today {
+      border: none !important;
+    }
+  }
+
+  #wp-ultimo-users .wu_status_list li.users-today {
+    border: none !important;
+  }
+
+  .select2-container-multi .select2-choices .select2-search-field input {
+    background: $midblack !important;
+  }
+
+  #wu-broadcast-form #broadcast-subject-line {
+    background: $midblack;
+  }
+
+  #wu-broadcast-form #broadcast-subject-line input {
+    background: none;
+  }
+
+  .wu-broadcast-submit-block {
+    background: none;
+    padding: 15px 0;
+  }
+
+  #preview-message,
+  #save-message {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #wp-ultimo-past-broadcasts .tablenav {
+    background: none;
+  }
+
+  #wp-ultimo-past-broadcasts .wu-broadcast-table table {
+    background: $midblack;
+  }
+
+  .select2-container-multi .select2-choices {
+    background: none;
+  }
+
+  .wu-about-wrap .complete-changelog {
+    background: $darkblack;
+  }
+
+  .wu-rss-widget-title {
+    background: none !important;
+  }
+
+  .wu-feed-pagination {
+    background: none;
+  }
+
+  .striped > tbody > :nth-child(even) {
+    background: none !important;
+  }
+}

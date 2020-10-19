@@ -1,0 +1,31 @@
+.myhome-idx-wrapper__contact-contact-1004 .IDX-page-homevaluation {
+  margin: 0 auto;
+  .IDX-leadFormWrap {
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+  }
+  .IDX-help-inline {
+    top: -12px;
+    position: relative;
+  }
+  #IDX-homeValueSubmitMessage {
+    margin-bottom: -16px;
+    margin-top: 24px;
+  }
+  #IDX-resetBtn {
+    display: none !important;
+  }
+  .IDX-homevalueLine {
+    display: none;
+  }
+
+  .IDX-controls .IDX-radio-inline {
+    margin-right: 24px;
+    input {
+      padding-right: 6px !important;
+      margin-right: 2px !important;
+      top: 1px !important;
+      position: relative !important;
+    }
+  }
+}

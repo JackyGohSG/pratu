@@ -1,0 +1,215 @@
+/* Clean IDX styles */
+#IDX-main {
+  margin: 0;
+}
+#myhome-idx-wrapper {
+  * {
+    text-shadow: none !important;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    font-variant: initial !important;
+  }
+  #IDX-resetBtn {
+    display: none !important;
+  }
+  #IDX-main {
+    padding: 0;
+  }
+  /* Inputs */
+  input:not([type='checkbox']):not([type='submit']):not([type='button']):not([type='radio']),
+  input[type=date],
+  input[type=email],
+  input[type=number],
+  input[type=password],
+  input[type=search],
+  input[type=tel],
+  input[type=text],
+  select,
+  textarea {
+    height: 48px !important;
+    padding: 11px 12px !important;
+    line-height: 24px !important;
+    font-size: 16px !important;
+    background: #fff !important;
+    margin-bottom: 12px !important;
+    border: 1px solid #c5c5c5 !important;
+    color: #222 !important;
+    width: 100% !important;
+    text-transform: none !important;
+    text-decoration: none !important;
+    font-style: initial !important;
+    text-align: left !important;
+    &:hover,
+    &:active,
+    &:focus {
+      color: #222 !important;
+      background: #fff !important;
+    }
+    textarea {
+      height: 200px !important;
+    }
+    .IDX-control-group {
+      float: left;
+    }
+  }
+  .IDX-control-label,
+  .IDX-addressField label {
+    margin-bottom: 6px !important;
+    display: inline-block !important;
+    text-align: left !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    font-family: $font-two;
+  }
+  .IDX-controls .IDX-checkbox-inline {
+    margin-right: 12px !important;
+    input {
+      position: relative !important;
+      top: 2px !important;
+    }
+  }
+  .IDX-required {
+    color: red;
+    font-weight: bold;
+    margin-left: 2px;
+    display: inline-block;
+  }
+
+  /* User Bar */
+  #IDX-leadToolsBar {
+    background: $mh-color-primary;
+    color: #fff;
+    font-weight: 400;
+    border: none;
+    height: initial;
+    padding: 12px 18px;
+    @media (max-width: 767px) {
+      margin-bottom: 12px;
+      #IDX-leadAccountLink {
+        width: 100%;
+        text-align: left;
+        float: left;
+      }
+      #IDX-leadInfo {
+        margin-left: 0px;
+      }
+    }
+    a {
+      color: #fff;
+    }
+  }
+
+  /* Top Links*/
+  .IDX-topLinks {
+    .IDX-topLink {
+      background: #fff;
+      margin-right: 12px;
+      padding: 6px 12px;
+      display: inline-block;
+    }
+  }
+
+  #IDX-hotLinks {
+    padding-top: 6px !important;
+  }
+
+  #IDX-resetBtn,
+  #IDX-formReset {
+    @include button-reset();
+  }
+
+  #IDX-submitBtn,
+  #IDX-formSubmit {
+    @include button-submit();
+  }
+  #IDX-searchRefinement {
+    width: 100%;
+  }
+  #IDX-listingID-group {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.ui-dialog[aria-labelledby*=IDX-loadingScreen] {
+
+  .ui-widget-header {
+    a {
+      display: none !important;
+      span {
+        display: none !important;
+      }
+    }
+  }
+  #IDX-loadingScreen {
+    div {
+
+      img {
+        display: none !important;
+      }
+    }
+  }
+}
+
+#myhome-idx-wrapper #idxStop {
+  display: none;
+}
+
+#myhome-idx-wrapper #idxStart {
+  margin: 0 auto !important;
+  width: 100% !important;
+  height: 300px !important;
+  background: #222 !important;
+  color: #fff !important;
+  position: relative !important;
+  margin-bottom: 24px !important;
+  &:after {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    content: 'IDX Wrapper Placeholder' !important;
+    display: block !important;
+    text-align: center !important;
+    height: 48px !important;
+    font-size: 24px !important;
+    margin-top: 136px !important;
+  }
+}
+
+html body.vc_editor .mh-idx-widget {
+  width:100%!important;
+  max-width:100%!important;
+}
+
+html body.vc_editor {
+  .mh-idx-widget {
+    margin: 0 auto !important;
+    width: 100% !important;
+    height: 300px !important;
+    background: #222 !important;
+    color: #fff !important;
+    position: relative !important;
+    margin-bottom: 24px !important;
+  }
+
+  .mh-idx-widget:after {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    content: 'IDX Widget Placeholder' !important;
+    display: block !important;
+    text-align: center !important;
+    height: 48px !important;
+    font-size: 24px !important;
+    margin-top: 136px !important;
+  }
+
+  .mh-idx-widget * {
+    display: none !important;
+  }
+}

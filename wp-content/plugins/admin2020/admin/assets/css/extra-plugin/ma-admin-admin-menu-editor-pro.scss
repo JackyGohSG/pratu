@@ -1,0 +1,13 @@
+@import '../ma-admin-variables.scss';
+
+.ws_toolbar {
+  height: 40px;
+}
+
+#ws_editor_sidebar {
+  width: 310px !important;
+}
+
+#ws_menu_editor .ws_main_button {
+  width: calc(100% - 10px) !important;
+}

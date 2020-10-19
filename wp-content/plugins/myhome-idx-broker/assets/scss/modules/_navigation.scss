@@ -1,0 +1,40 @@
+#IDX-searchNavWrapper {
+  background: #f4f4f4;
+  padding: 3px 6px;
+  margin-bottom: 0 !important;
+  display: block;
+  border-bottom: 2px solid #e03356;
+  .IDX-listAsRow {
+    @include clearfix();
+  }
+  a {
+    display: inline-block;
+    float: left;
+    padding: 6px;
+    @include breakpoint(sm) {
+      padding: 12px;
+    }
+  }
+  .IDX-listAsRow li {
+    padding: 0 6px 0 0;
+    float: left;
+    @include breakpoint(sm) {
+      padding: 0 12px 0 0;
+    }
+  }
+  #IDX-searchNavList > li > span {
+    float: left;
+    position: relative;
+    padding: 6px;
+    @include breakpoint(sm) {
+      padding: 12px;
+    }
+  }
+
+  #IDX-searchSubmitReset {
+    width: 100%;
+    button {
+      width: 100%;
+    }
+  }
+}

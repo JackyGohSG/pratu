@@ -1,0 +1,114 @@
+#myhome-idx-wrapper.myhome-idx-wrapper__mortgage_calculator-mobileFirstMortgage-1002 {
+  .IDX-pageHeader,
+  #IDX-mortgageRatesHeader h2 {
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+  .IDX-well {
+    padding: 12px 12px 8px 12px;
+    margin-bottom: 12px;
+    line-height: 16px;
+    border: none;
+    border-left: 5px solid $mh-color-primary;
+    background-color: #fff !important;
+    border: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    @include clearfix();
+  }
+  hr {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 0;
+    border-top: none;
+  }
+  .IDX-propertyInfoList li {
+    padding-bottom: 6px;
+    @include breakpoint(sm) {
+      width: 50%;
+      float: left;
+    }
+    .IDX-label {
+      font-weight: 700;
+    }
+  }
+  .IDX-pageContainer {
+    @include section-style();
+  }
+  #IDX-mortgagePmiUnit {
+    position: absolute !important;
+    right: 13px !important;
+    top: 40px !important;
+  }
+  #IDX-main input[type=checkbox]#IDX-includePmi {
+    margin-top: 7px !important;
+  }
+  .IDX-btn-primary {
+    @include button-submit();
+  }
+  .IDX-input-group-addon {
+    text-align: center !important;
+    background-color: $mh-color-primary;
+    color: #fff !important;
+    border: none !important;
+  }
+  input:not([type='checkbox']):not([type='submit']):not([type='button']):not([type='radio']),
+  input[type=text],
+  select,
+  textarea {
+    height: 48px !important;
+    padding: 12px 12px !important;
+    margin-left: 0 !important;
+    line-height: 24px !important;
+    font-size: 16px !important;
+    background: #fff !important;
+    margin-bottom: 0px !important;
+    border: 1px solid transparent !important;
+    color: #222 !important;
+    width: 100% !important;
+    text-transform: none !important;
+    text-decoration: none !important;
+    font-style: initial !important;
+    text-align: left !important;
+    &:hover,
+    &:active,
+    &:focus {
+      color: #222 !important;
+      background: #fff !important;
+    }
+  }
+
+  textarea {
+    height: 200px !important;
+  }
+  .IDX-control-group {
+    float: left;
+  }
+  #IDX-showAmortizationPagination {
+    margin-bottom: 24px;
+  }
+
+  #IDX-showAmortizationContent {
+    background-color: transparent;
+  }
+
+  #IDX-main table {
+    background-color: #fff;
+  }
+  #IDX-main .select2-choice, #IDX-main .select2-choice .select2-arrow,
+  #IDX-main .IDX-btn-default.IDX-active,
+  #IDX-main .IDX-btn-default:active,
+  #IDX-main .IDX-btn-default:focus,
+  #IDX-main .IDX-btn-default:hover,
+  .open > #IDX-main .IDX-btn-default.dropdown-toggle,
+  #IDX-main .IDX-btn-default {
+    border-color: transparent !important;
+  }
+  #IDX-mortgageRatesContainer {
+    @include section-style();
+    margin-top: -24px !important;
+  }
+  #IDX-mortgageRatesResultInfo {
+    padding: 0 18px !important;
+  }
+}

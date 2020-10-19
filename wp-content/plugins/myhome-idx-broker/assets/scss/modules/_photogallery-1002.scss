@@ -1,0 +1,67 @@
+.myhome-idx-wrapper__photo_gallery-photogallery-1002 {
+  .IDX-photoGalleryTitle {
+    margin: 12px 0;
+  }
+  .IDX-propertyInfoList {
+    padding: 12px 18px;
+    margin-bottom: 12px;
+    background: #f4f4f4;
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+
+  #IDX-previousPage {
+    float: none !important;
+    padding: 0 !important;
+    text-align: left;
+  }
+  #IDX-photoGalleryContainer + div {
+    float: left;
+    width: 100%;
+  }
+  .IDX-page-photogallery #IDX-previousPage {
+    padding: 24px 18px 0px 18px;
+    width: 100%;
+    display: block;
+    float: left;
+    margin-bottom: 18px;
+    .IDX-previousSeparator {
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+    a:hover {
+      color: $mh-color-primary;
+    }
+  }
+
+  .IDX-category-contact .IDX-propertyInfoList {
+    width: 100%;
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .IDX-customRegistrationFields,
+  .IDX-showingDates {
+    margin-right: -12px;
+  }
+
+  .IDX-photoGallery {
+    background: #f4f4f4;
+    padding: 24px 24px 18px 24px;
+    margin-bottom: 24px;
+    border-top: 5px solid $mh-color-primary;
+    img {
+      margin: 0 auto;
+    }
+  }
+
+  #IDX-primaryPhoto {
+    padding: 0 12px;
+  }
+  .IDX-showcaseCaption {
+    margin-top: 6px !important;
+    text-align: center !important;
+    margin-bottom: 36px !important;
+  }
+}

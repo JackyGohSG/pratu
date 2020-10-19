@@ -1,0 +1,91 @@
+@mixin heading-myaccount-1000() {
+  margin-top: 18px;
+  font-family: $font-one;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.myhome-idx-wrapper__my_account-myaccount-1000 {
+  #IDX-leadToolsWrapper,
+  .IDX-myAccountInfoDiv {
+    @include section-style();
+    padding-bottom: 6px;
+    position: relative;
+  }
+
+  .IDX-leadTools {
+    border: none;
+    padding: 0 0 12px 0;
+    margin-bottom: 0;
+    width: 100%;
+    float: left;
+    display: block;
+    h3 {
+      @include heading-myaccount-1000();
+    }
+    .IDX-myAccountIcon {
+      margin-left: 0;
+    }
+  }
+  .IDX-myAccountInfoHeader {
+    margin-bottom: 0;
+    & > div {
+      width: 100%;
+      h3 {
+        @include heading-myaccount-1000();
+      }
+    }
+  }
+  .IDX-backLink {
+    position: absolute;
+    top: 0;
+    right: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    &:hover {
+      color: $mh-color-primary;
+    }
+  }
+  .IDX-myAccountPage .IDX-clear {
+    display: none !important;
+  }
+  input[type='submit'] {
+    @include button-submit();
+  }
+  input[type='button'] {
+    @include button-reset();
+  }
+  #IDX-updateInfo input[type='radio'] {
+    margin-left: 18px;
+    margin-right: 6px;
+    display: inline-block;
+  }
+  #IDX-emailUpdatesAutoLoginWrap,
+  #IDX-emailFormatWrap,
+  #IDX-updateInfoActions,
+  #IDX-receiveUpdatesWrap {
+    margin-bottom: 12px;
+    label {
+      width: 200px;
+    }
+  }
+  center,
+  .IDX-formActions {
+    text-align: left !important;
+  }
+  #IDX-verifyAccountForm {
+    margin-top: 12px;
+  }
+  .IDX-leadTools br {
+    display: none;
+  }
+  #IDX-emailLabel {
+    color: #222;
+  }
+  #IDX-updateInfoActions {
+    margin-top: 12px;
+  }
+  #IDX-newPassword {
+    margin-top: 12px;
+  }
+}

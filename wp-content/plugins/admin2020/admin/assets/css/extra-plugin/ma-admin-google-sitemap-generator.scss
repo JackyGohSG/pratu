@@ -1,0 +1,59 @@
+/*------------------------------------------------------------------
+[Google Sitemaps STYLES]
+
+Project:      Admin 2020
+Description:  Loaded if Google sitemaps is installed
+
+[Table of contents]
+
+
+1.  General
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+1.  General
+-------------------------------------------------------------------*/
+@import '../ma-admin-variables.scss';
+
+.settings_page_google-sitemap-generator-sitemap {
+  .metabox-holder {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-table {
+    background: none;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .postbox {
+    width: 100% !important;
+  }
+
+  .metabox-holder {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+
+  .inner-sidebar {
+    width: 30%;
+  }
+
+  .has-sidebar {
+    width: 70%;
+    padding-right: 30px;
+  }
+
+  #post-body-content {
+    .postbox {
+      width: 100% !important;
+    }
+    background: none;
+    padding: 0;
+    box-shadow: none;
+    width: 100%;
+  }
+}

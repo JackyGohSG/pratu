@@ -1,0 +1,34 @@
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+@import '../ma-admin-variables.scss';
+/*------------------------------------------------------------------
+2.  DARK
+-------------------------------------------------------------------*/
+.ma-admin-dark {
+  .ai1wm-holder {
+    background: $darkblack;
+    border: none !important;
+  }
+
+  .ai1wm-segment {
+    background: $darkblack !important;
+    border: none !important;
+  }
+
+  .ai1wm-feedback-types > li > a,
+  .ai1wm-feedback-types > li > label > span {
+    text-decoration: none !important;
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 100 !important;
+  }
+
+  .ai1wm-drag-drop-area {
+    background: $darkblack !important;
+  }
+
+  .ai1wm-modal-container {
+    background: $darkblack !important;
+  }
+}

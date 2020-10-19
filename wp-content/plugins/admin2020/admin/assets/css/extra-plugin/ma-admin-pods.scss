@@ -1,0 +1,190 @@
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+@import '../ma-admin-variables.scss';
+/*------------------------------------------------------------------
+2.  GENERAL
+-------------------------------------------------------------------*/
+.pods-manage-fields {
+  table {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.pods-ui-filter-bar-primary {
+  background: none !important;
+  border: none !important;
+
+  .subsubsub {
+    li {
+      text-shadow: none;
+
+      a {
+        background: none !important;
+        border: none !important;
+      }
+    }
+  }
+}
+
+.icon-pods {
+  height: 50px;
+}
+
+.pods-nav-tabbed {
+  .columns-2 #postbox-container-1 {
+    position: absolute !important;
+    right: 0 !important;
+  }
+}
+
+.pods-no-toggle {
+  #publishing-action {
+    position: relative;
+  }
+}
+
+tbody.pods-manage-list tr.pods-manage-row-expanded {
+  background: none !important;
+  padding-right: 0 !important;
+}
+
+#pods-manage-fields {
+  table {
+    width: 100%;
+    text-align: left !important;
+  }
+}
+
+.pods-admin_friends-callout_logo-container {
+  width: 100% !important;
+}
+/*------------------------------------------------------------------
+2.  DARK
+-------------------------------------------------------------------*/
+.ma-admin-dark {
+  .pods-wizard-content {
+    background: $darkblack !important;
+    color: #fff;
+  }
+
+  #pods-wizard-box #pods-wizard-main .pods-wizard-panel {
+    border: 1px solid $bordercolor;
+  }
+
+  .pods-wizard-option {
+    a {
+      background: $midblack !important;
+
+      h2 {
+        color: $primarylink !important;
+
+        &:hover {
+          color: #fff !important;
+        }
+      }
+
+      p {
+        color: #fff !important;
+      }
+    }
+  }
+
+  #pods-wizard-heading {
+    ul {
+      li {
+        height: 36px !important;
+        border: none !important;
+        background: $darkblack !important;
+
+        i {
+          display: none !important;
+        }
+      }
+
+      .pods-wizard-menu-current {
+        background: $midblack !important;
+      }
+    }
+  }
+
+  .pods-field-option {
+    background: $midblack !important;
+
+    label {
+      color: #fff;
+    }
+  }
+
+  #pods-wizard-actions {
+    background: $darkblack !important;
+    border-color: $bordercolor;
+  }
+
+  .pods-admin_friends-callout_content-container {
+    background: $darkblack;
+    border-color: $bordercolor !important;
+  }
+
+  .pods-admin_friends-callout_container {
+    border: none !important;
+  }
+
+  .pods-tabbed ul.pods-tabs li.pods-tab a {
+    background: $midblack !important;
+    border: 1px solid $bordercolor !important;
+  }
+
+  .pods-tabbed ul.pods-tabs li.pods-tab a.selected {
+    background: $midblack !important;
+    color: $primarylink !important;
+  }
+
+  .pods-field-option {
+    border: 1px solid $bordercolor !important;
+  }
+
+  .pods-tabbed .pods-tab-group .pods-tab {
+    border: 1px solid $bordercolor !important;
+  }
+
+  div.pods-manage-field .pods-field-option,
+  div.pods-manage-field .pods-field-option-group {
+    background: $midblack !important;
+  }
+
+  #fs_connect {
+    .fs-actions,
+    .fs-content,
+    .fs-permissions,
+    .fs-visual {
+      background: $midblack !important;
+    }
+  }
+
+  .pods-ui-filter-bar-primary {
+    .subsubsub {
+      li {
+        color: #fff !important;
+        text-shadow: none !important;
+
+        a {
+          color: #fff !important;
+          text-shadow: none !important;
+          line-height: inherit !important;
+        }
+      }
+    }
+  }
+
+  .pods-admin-container {
+    tr.pods-toggled-off {
+      background: none !important;
+    }
+
+    tr.pods-toggled-on {
+      background: none !important;
+    }
+  }
+}

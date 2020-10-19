@@ -1,0 +1,977 @@
+.myhome-idx-wrapper__details-detailsDynamic-1008 .IDX-page-listing {
+  padding: 124px 0 0 0 !important;
+  @include breakpoint(sm) {
+    padding: 144px 0 0 0 !important;
+  }
+  textarea#IDX-message {
+    height: 150px !important;
+  }
+  #IDX-detailsLinkSave {
+    display: none;
+  }
+  #IDX-detailsAgentPhoto {
+    text-align: left;
+  }
+  #IDX-detailsAgentPhoto img {
+    border-radius: 50% !important;
+  }
+  @media (max-width: 767px) {
+    #IDX-detailsAgentPhoto {
+      width: 100%;
+      margin-bottom: 24px;
+    }
+  }
+  #IDX-detailsFeaturedAgentdisplayname {
+    font-family: $font-two;
+    margin-top: 5px !important;
+    display: block;
+  }
+  #IDX-detailsMap {
+    width: auto !important;
+    min-width: 100% !important;
+  }
+  textarea {
+    height: 120px !important;
+    margin-bottom: 0 !important;
+  }
+  #IDX-nextLastButtons {
+    float: left;
+    width: 100%;
+    background: #f4f4f4;
+    padding: 18px 18px 0 18px;
+    #IDX-nextProp {
+      color: $mh-color-primary;
+    }
+    #IDX-nextLastPosition {
+      margin-top: 6px;
+      display: block;
+      margin-bottom: 12px;
+      font-weight: 700;
+    }
+  }
+  .IDX-detailsVirtualTourLink {
+    @include button-submit();
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  #IDX-hotLinks {
+    background: #f4f4f4;
+    color: #fff;
+    padding: 12px 18px !important;
+    line-height: 16px;
+    font-size: 14px;
+    & > * {
+      float: left;
+      display: inline-block;
+    }
+    a {
+      margin-right: 24px;
+      display: inline-block;
+      float: left;
+      @media (max-width: 767px) {
+        padding-bottom: 12px;
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+      padding-left: 18px;
+      position: relative;
+      &:before {
+        display: none;
+      }
+      &:hover {
+        color: $mh-color-primary;
+      }
+    }
+    #IDX-moreInfo:after {
+      font-family: FontAwesome;
+      content: "\f05a";
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    #IDX-mortgageLink:after {
+      font-family: FontAwesome;
+      content: "\f1ec";
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    #IDX-printable:after {
+      font-family: FontAwesome;
+      content: "\f02f";
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    #IDX-contactAgent:after {
+      font-family: FontAwesome;
+      content: "\f0e0";
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .IDX-propertySaved {
+      position: relative;
+      padding-left: 20px;
+      &:after {
+        font-family: FontAwesome;
+        content: "\f00c";
+        font-weight: initial;
+        font-size: 16px;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      &:before {
+        display: none;
+      }
+    }
+    .IDX-saveProperty {
+      position: relative;
+      padding-left: 20px;
+      &:after {
+        font-family: FontAwesome;
+        content: "\f0c7";
+        font-weight: initial;
+        font-size: 16px;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+    @include clearfix();
+    .IDX-saveProperty,
+    .IDX-propertySaved,
+    #IDX-moreInfo,
+    #IDX-contactAgent,
+    #IDX-contactAgent {
+      margin-right: 24px;
+    }
+  }
+}
+
+.myhome-idx-wrapper__details-detailsDynamic-1008 .IDX-page-listing {
+  padding-top: 140px;
+  position: relative;
+  #IDX-detailsWrapper {
+    float: left;
+  }
+  #IDX-detailsPrimaryImg {
+    width: 100%;
+  }
+  #IDX-detailsAddress {
+    width: 100% !important;
+    background: #f0f0f0;
+  }
+  #IDX-detailsField-listingPrice #IDX-detailsPrice {
+    color: $mh-color-primary;
+  }
+  #IDX-detailsTopNav {
+    min-height: 0;
+    .IDX-topLink {
+      position: initial;
+      background: #f4f4f4;
+      padding: 0;
+      margin-bottom: 6px;
+      line-height: 24px;
+      a {
+        font-size: 14px;
+        color: #222;
+        &:hover {
+          color: $mh-color-primary;
+        }
+      }
+    }
+  }
+  .IDX-wrapper-standard .IDX-thumbnail {
+    border: none;
+    padding: 0;
+    margin: 0 0 12px 0;
+  }
+
+  .IDX-carouselThumb {
+    opacity: 0.5;
+    border: none;
+    xwidth: 150px;
+    xheight: 150px;
+  }
+
+  .IDX-wrapper-standard .IDX-thumbnail {
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .IDX-carouselThumb img {
+    max-width: 100%;
+  }
+
+  #IDX-detailsShowcaseSlides {
+    padding: 0;
+  }
+
+  .IDX-carouselThumb:hover {
+    opacity: 1;
+  }
+
+  .IDX-carouselThumb.IDX-showcaseSlide-active {
+    opacity: 1;
+  }
+
+  .IDX-listingCountWrap {
+    color: #666;
+    font-size: 21px;
+    line-height: 24px;
+    width: 100%;
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 700;
+  }
+
+  .IDX-resultsCount {
+    color: #666;
+  }
+
+  #IDX-resultsCountMessage {
+    top: -18px;
+    position: relative;
+  }
+
+  #IDX-scheduleShowing {
+    width: 100%;
+    text-align: center;
+  }
+
+  #IDX-formSubmit {
+    margin-top: 22px;
+  }
+
+  .IDX-basicRow {
+    float: left;
+    width: 100%;
+    clear: initial;
+  }
+
+  #IDX-idxID-group, #IDX-pt-group {
+    width: 100%;
+  }
+
+  .IDX-coreFields {
+    width: 100%;
+  }
+
+  .IDX-coreFields {
+    padding: 0px;
+  }
+
+  #IDX-coreFieldRow {
+    zoom: 1;
+    padding: 12px;
+    background: #f4f4f4;
+    margin: 0;
+  }
+
+  #IDX-pt-group {
+    width: 100%;
+    @include breakpoint(sm) {
+      width: 50%;
+    }
+  }
+
+  ul#IDX-searchNavList {
+    background: #f2f2f2;
+    padding: 0;
+  }
+
+  #IDX-mapContainer {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  #IDX-mapHeader-Search {
+    height: 68px;
+    background: #222;
+  }
+
+  #IDX-basicBottom {
+    background: #222;
+    padding: 12px;
+    margin: 0;
+  }
+
+  #IDX-basicBottom .IDX-control-label {
+    color: #fff;
+  }
+
+  #IDX-basicBottom #IDX-per-group {
+    padding-right: 12px;
+  }
+
+  #IDX-idxID-group, #IDX-pt-group {
+    padding: 0 12px 0 0;
+  }
+
+  .IDX-listAsRow li span {
+    padding: 12px 0;
+    display: inline-block;
+    text-transform: uppercase;
+    color: $mh-color-primary;
+    font-size: 13px;
+  }
+  #ws-walkscore-tile {
+    width: 100% !important;
+  }
+  .IDX-listAsRow li a {
+    font-size: 13px;
+    padding: 12px 0;
+    display: inline-block;
+    pointer: cursor;
+    color: #222;
+    text-transform: uppercase;
+  }
+
+  .IDX-listAsRow li a:hover {
+    color: $mh-color-primary;
+  }
+
+  .IDX-basicRow {
+    padding: 24px 12px 12px 12px;
+    background: #f4f4f4;
+    margin-bottom: 0;
+  }
+
+  .IDX-row-content {
+    padding: 0;
+  }
+
+  #IDX-cczContainer, #IDX-lp-group, #IDX-hp-group, #IDX-tb-group, #IDX-bd-group, #IDX-sqft-group, #IDX-acres-group {
+    padding: 0 12px 6px 0;
+  }
+
+  #IDX-searchNavWrapper {
+    margin-bottom: 0;
+  }
+
+  #IDX-advancedSearchFields {
+    background: #f4f4f4;
+    padding: 12px 24px;
+  }
+
+  #IDX-filterFields {
+    clear: both;
+    display: block;
+    float: right;
+    background: #fff;
+    margin-top: 12px;
+    padding: 12px;
+  }
+
+  #IDX-add {
+    width: 100%;
+  }
+
+  h4#IDX-resultsSeparatorTextFeatured {
+    background: #222;
+    color: #fff;
+    padding: 24px;
+    margin-bottom: 0;
+  }
+
+  #IDX-photoListing {
+    width: 100%;
+  }
+
+  #IDX-detailsPhoto {
+    border-radius: 0;
+  }
+
+  .IDX-fieldContainer,
+  #IDX-detailsContactForm,
+  #IDX-description,
+  #IDX-contentFields,
+  #IDX-detailsAgentInfo,
+  #IDX-openHouses {
+    background: #f4f4f4;
+    padding: 18px 24px;
+    margin-bottom: 12px;
+    margin-top: 0;
+    font-size: 16px;
+    width: 100%;
+    line-height: 24px;
+    text-align: left;
+    float: left;
+  }
+
+  #IDX-openHouses {
+    border: none !important;
+  }
+
+  #IDX-detailsFeatured {
+    width: 100%;
+    padding: 0;
+  }
+
+  #IDX-detailsContactForm input {
+    width: 100%;
+  }
+
+  #IDX-contentFields .IDX-detailsField {
+    background: transparent;
+    border: none;
+  }
+
+  .IDX-fieldContainerTitle,
+  #IDX-listingHeader,
+  #IDX-openHouseHeader {
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    &:after {
+      content: '';
+      height: 2px;
+      width: 100%;
+      background: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  .IDX-fieldContainerList > div {
+    padding: 0 12px 0 0;
+    margin-bottom: 9px;
+    font-size: 16px;
+  }
+
+  .IDX-fieldTwoColumn .IDX-fieldContainerList {
+    width: 100%;
+    padding: 0;
+    @include breakpoint(sm) {
+      width: 50%;
+    }
+  }
+
+  .IDX-control-group {
+    width: 100%;
+    margin: 0;
+    float: left;
+    @include breakpoint(sm) {
+      width: 50%;
+    }
+  }
+
+  .IDX-control-group input {
+    margin-right: 12px;
+  }
+
+  .IDX-controls {
+    padding-right: 12px;
+    padding-bottom: 9px;
+  }
+
+  #IDX-contentFields .IDX-contentFields:first-child {
+    border-top: 2px solid #fff;
+    padding-top: 12px;
+  }
+  #IDX-detailsHead {
+    background: #f4f4f4;
+    margin-bottom: 12px;
+  }
+
+  #IDX-detailsField-listingPrice,
+  #IDX-detailsField-soldPrice,
+  #IDX-detailsHead #IDX-detailsField-propStatus,
+  #IDX-detailsAddress {
+    width: 100%;
+    min-height: initial;
+    float: left;
+    margin: 0;
+    text-align: center;
+    padding: 18px 24px;
+  }
+  @include breakpoint(sm) {
+    #IDX-detailsField-listingPrice,
+    #IDX-detailsField-soldPrice,
+    #IDX-detailsHead #IDX-detailsField-propStatus,
+    #IDX-detailsAddress {
+      width: 33.333%;
+    }
+  }
+  #IDX-detailsHeadFields {
+    clear: initial;
+  }
+  #IDX-detailsHeadFields .IDX-detailsField {
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    background: #f4f4f4;
+    padding: 18px;
+  }
+  @include breakpoint(sm) {
+    #IDX-detailsHeadFields .IDX-detailsField {
+      width: 33.333%;
+    }
+  }
+
+  .IDX-lineBreak {
+    border-bottom: 0;
+  }
+
+  #IDX-detailsTopLinks {
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+  }
+
+  #IDX-detailsLinkBack {
+    left: 0;
+    top: 0;
+  }
+
+  #IDX-detailsTopNav.IDX-detailsTrack {
+    height: 20px;
+  }
+
+  .IDX-contactAgentHeader {
+    margin-bottom: 0;
+  }
+
+  #IDX-contactInformation {
+    background: #fff;
+    padding: 12px;
+    margin-bottom: -24px;
+    margin-top: 0;
+  }
+  .IDX-detailsText,
+  .IDX-fieldData,
+  .IDX-detailsAddressInfo {
+    display: block;
+    padding-bottom: 12px;
+    font-size: 24px;
+    color: #333;
+  }
+  #IDX-photoGalleryLink,
+  #IDX-scheduleShowing,
+  #IDX-detailsVirtualTour {
+    @include button-submit();
+    width: 100%;
+  }
+  #IDX-scheduleShowing,
+  #IDX-detailsVirtualTour {
+    margin-bottom: 12px;
+  }
+  #IDX-walkscoreContainer {
+    @include section-style();
+    margin-top: 12px;
+    margin-bottom: 12px;
+    label {
+      font-weight: 700;
+    }
+  }
+  #IDX-detailsMap {
+    margin-bottom: 12px;
+  }
+  #IDX-detailsGalleryLink {
+    margin-top: 0;
+    padding-top: 12px;
+    padding-bottom: 0;
+    background: #fff;
+    @include breakpoint(sm) {
+      margin-top: 12px;
+    }
+  }
+  #IDX-photoGalleryLink:before {
+    display: none;
+  }
+
+  #IDX-contentFields .IDX-detailsField {
+    padding: 0;
+    float: left;
+    font-size: 16px;
+    width: 100%;
+    @include breakpoint(sm) {
+      width: 50%;
+    }
+  }
+
+  #IDX-contentFields .IDX-detailsField span {
+    display: inline;
+    width: auto;
+  }
+
+  #IDX-contentFields .IDX-detailsField .IDX-fieldLabel,
+  #IDX-contentFields .IDX-detailsField .IDX-fieldData {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #222;
+  }
+
+  #IDX-contentFields .IDX-detailsField .IDX-fieldLabel {
+    font-weight: 700;
+  }
+
+  #IDX-contentFields .IDX-detailsField .IDX-fieldData {
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 3px;
+  }
+
+  #IDX-contentFields .IDX-detailsField .IDX-fieldLabel:after {
+    content: ':';
+  }
+
+  div#IDX-description {
+    margin-bottom: 12px;
+  }
+
+  #IDX-detailsAgentInfo {
+    @include section-style();
+    text-align: center !important;
+  }
+  @media (max-width: 767px) {
+    #IDX-detailsPrice {
+      text-align: center;
+      display: block;
+    }
+    .IDX-detailsPrice {
+      padding-top: 12px !important;
+      float: left;
+      width: 100%;
+    }
+  }
+  #IDX-detailsFeaturedAgentdisplayname {
+    font-size: 24px;
+    margin-bottom: 6px;
+    font-weight: 700;
+  }
+  #IDX-message-group {
+    width: 100%;
+  }
+  #IDX-detailsAgentText {
+    text-align: left !important;
+    @include breakpoint(sm) {
+      padding-left: 120px;
+    }
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .IDX-detailsAgentInfoLabel {
+    font-weight: 700;
+  }
+  #IDX-detailscontactFormActions {
+    text-align: left;
+  }
+  #IDX-detailsHead {
+    .IDX-detailsLabel,
+    .IDX-detailsAddressLocationInfo,
+    .IDX-fieldLabel {
+      color: #666;
+      display: block;
+      font-size: 12px;
+      text-transform: initial;
+      text-transform: uppercase;
+    }
+  }
+  #IDX-detailsGalleryLink {
+    position: relative;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    &:after {
+      content: '';
+      height: 12px;
+      width: 100%;
+      background: #fff;
+      position: absolute;
+      bottom: -12px;
+      left: 0;
+      right: 0;
+    }
+  }
+  #IDX-fieldsWrapper .IDX-fieldData {
+    font-size: 16px;
+    width: auto;
+    display: inline;
+    padding-bottom: 0;
+    padding-right: 12px;
+  }
+  #IDX-contentFields .IDX-contentFields:first-child {
+    border: 0px solid transparent;
+    padding-top: 0;
+  }
+  .IDX-customRegistrationFields,
+  .IDX-showingDates {
+    width: auto;
+    margin-right: -24px;
+    display: block;
+    float: left;
+  }
+  #IDX-message-group,
+  #IDX-message-group .IDX-controls {
+    padding-right: 0px;
+  }
+
+  #IDX-detailsBankRateTool {
+    position: relative !important;
+  }
+
+  .IDX-estMonthlyPayment {
+    display: block !important;
+    padding-bottom: 12px !important;
+    font-size: 24px !important;
+    color: #333 !important;
+    font-weight: 700 !important;
+    width: 100% !important;
+    text-align: center !important;
+    float: left !important;
+    position: absolute !important;
+    top: 18px !important;
+    margin: 0 auto !important;
+    left: 0 !important;
+    right: 0 !important;
+  }
+
+  #IDX-detailsBankRateTool {
+    width: 100% !important;
+    float: left !important;
+    text-align: right !important;
+    min-height: initial !important;
+    float: left !important;
+    margin: 0 !important;
+    text-align: center !important;
+    padding: 56px 0 24px 0 !important;
+    color: #666 !important;
+    display: block !important;
+    font-size: 12px !important;
+    text-transform: initial !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    @include breakpoint(sm) {
+      width: 33.333% !important;
+    }
+  }
+
+  #IDX-detailsBankRateTool:after {
+    content: '' !important;
+    background: #f4f4f4 !important;
+    height: 8px !important;
+    width: 10px !important;
+    position: absolute !important;
+    margin-left: -3px !important;
+    margin-top: 4px;
+  }
+
+  #IDX-ohMoreInfo {
+    background: #222 !important;
+    display: inline-block !important;
+    margin-top: 12px !important;
+    padding: 6px 12px !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+  }
+
+  #IDX-detailsAddress {
+    position: absolute !important;
+    top: 0px !important;
+    background: #f2f2f2;
+    color: #999999;
+    text-align: center;
+    padding: 36px 18px;
+    left: 0 !important;
+    z-index: 10 !important;
+  }
+
+  #IDX-detailsPhoto {
+    height: auto !important;
+    width: auto !important;
+    margin: 0 auto 0 auto !important;
+    border: 2px solid #f4f4f4 !important;
+    @include breakpoint(sm) {
+      margin-top: 12px !important;
+    }
+  }
+  .IDX-detailsAddress {
+    color: #222 !important;
+  }
+  .IDX-detailsAddress,
+  .IDX-detailsAddressInfo,
+  .IDX-detailsAddressInfo *,
+  .IDX-detailsAddress > * {
+    font-size: 21px !important;
+    @include breakpoint(sm) {
+      font-size: 36px !important;
+    }
+  }
+
+  #IDX-detailsAddress {
+    background: #f4f4f4 !important;
+  }
+
+  #IDX-detailsHead .IDX-detailsAddressLocationInfo {
+    color: #666 !important;
+    text-transform: none !important;
+    font-size: 14px !important;
+  }
+
+  .IDX-detailsAddressInfo {
+    padding-bottom: 3px !important;
+  }
+
+  #IDX-detailsTopLinks {
+    float: left !important;
+    position: relative !important;
+    width: 100% !important;
+    padding: 6px 18px 0 18px !important;
+    margin-bottom: 0 !important;
+    background: #f4f4f4 !important;
+  }
+
+  .IDX-ohFreeFormDate {
+    line-height: 24px !important;
+  }
+
+  #IDX-detailsTopNav .IDX-topLink {
+    background: #f4f4f4 !important;
+  }
+
+  #IDX-detailsTopNav .IDX-topLink {
+    margin-bottom: 0 !important;
+  }
+  .IDX-page-listing {
+    margin-top: 96px;
+    position: relative;
+  }
+
+  #IDX-detailsPhoto {
+    border-radius: 0 !important;
+    display: block !important;
+  }
+  #IDX-captcha iframe {
+    float: left;
+    margin-bottom: 18px;
+  }
+  .IDX-contactAccountHeader {
+    margin-bottom: 12px !important;
+  }
+  .IDX-contactForm .IDX-controls {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  #IDX-detailsBankRateTool a {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 3px;
+  }
+
+  #IDX-contactInformation {
+    position: relative;
+    .IDX-contactAgentPic {
+      width: 100px;
+      margin-bottom: 12px;
+      @include breakpoint(sm) {
+        position: absolute;
+        left: 0 !important;
+        top: 12px !important;
+      }
+      display: block;
+      margin: 0;
+      border-radius: 50% !important;
+    }
+  }
+  #IDX-walkscoreContainer {
+    max-width: 100%;
+  }
+  #IDX-contactAgentPicWrap {
+    @include clearfix();
+    img {
+      display: block;
+      float: left;
+    }
+  }
+  #IDX-contactInformation {
+    @include breakpoint(sm) {
+      background: transparent;
+      padding-left: 120px;
+      padding-top: 12px;
+      min-height: 0;
+      position: relative;
+    }
+    #IDX-contactAgentInfo {
+      margin-top: 12px;
+    }
+    h3 {
+      font-size: 24px;
+      margin-bottom: 6px;
+      font-weight: 700;
+    }
+  }
+  #IDX-detailsField-rental {
+    display: block;
+    text-align: center;
+    @include breakpoint(sm) {
+      width: 33.33%;
+    }
+    float: left;
+    padding: 18px;
+  }
+  #IDX-detailsAgentInfo {
+    max-width: 100%;
+  }
+  #IDX-primaryPhoto {
+    padding-left: 18px;
+    padding-right: 18px;
+    @media (max-width: 767px) {
+      padding-top: 12px;
+    }
+  }
+
+  #IDX-detailsWrapper + div {
+    padding: 0 !important;
+    top: -5px !important;
+    position: relative !important;
+  }
+
+  #IDX-detailscontactContainer .IDX-contactFormRight {
+    display: none;
+  }
+  #IDX-detailscontactContainer .IDX-clear {
+    display: none;
+  }
+  #IDX-detailscontactContainer .IDX-formResponse {
+    display: none;
+  }
+  @include breakpoint(sm) {
+    #IDX-contactAgentInfo {
+      margin-top: 12px;
+    }
+  }
+  #IDX-detailsWrapper {
+    float: none !important;
+  }
+  span.IDX-fieldData {
+    color: #000 !important;
+  }
+  span.IDX-fieldLabel, span#IDX-detailsPriceLabel {
+    color: #666 !important;
+    font-size: 14px !important;
+    font-family: inherit !important;
+    font-weight: 300 !important;
+    text-transform: initial !important;
+  }
+  div#IDX-detailsField-rntLsePrice {
+    width: 33% !important;
+    float: left;
+  }
+  span#IDX-detailsPrice {
+    text-align: center;
+    margin-top: 18px !important;
+  }
+}

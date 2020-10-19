@@ -1,0 +1,59 @@
+.ui-dialog {
+  padding: 12px !important;
+  border: 1px solid #c5c5c5 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background: #f4f4f4 !important;
+
+  .ui-dialog-titlebar {
+    padding: 0 !important;
+    border: none !important;
+    border-bottom: 1px solid #fff !important;
+  }
+
+  .ui-dialog-content {
+    padding: 12px !important;
+    line-height: 24px !important;
+  }
+
+  span.ui-icon.ui-icon-closethick {
+    position: absolute !important;
+    top: -20px !important;
+    right: -12px !important;
+    height: 14px !important;
+  }
+
+  span.ui-icon.ui-icon-closethick:after {
+    content: '';
+    background: #f4f4f4;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 11px;
+    left: -6px;
+  }
+
+  .IDX-mediaModalVT {
+    margin-bottom: 6px !important;
+    font-size: 14px !important;
+    color: #666 !important;
+  }
+
+  .IDX-mediaModalVT a {
+    font-weight: 700 !important;
+    cursor: pointer !important;
+    font-size: 21px !important;
+  }
+
+  .IDX-mediaModalVT a:hover {
+    text-decoration: underline;
+  }
+}
+
+.ui-widget-overlay {
+  z-index: 40000 !important;
+}
+
+.ui-dialog {
+  z-index: 41000 !important;
+}

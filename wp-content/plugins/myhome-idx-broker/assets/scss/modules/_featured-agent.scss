@@ -1,0 +1,33 @@
+#IDX-featuredAgentWrap.IDX-featuredAgentWrap {
+  width: 100%;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  padding: 0;
+  border: 0px solid #fff;
+  background: #f4f4f4;
+  -box-shadow: none;
+  -webkit-box-shadow: none;
+  max-width: 500px;
+  margin: 0 auto;
+  #IDX-featAgentImgWrap {
+    padding: 0;
+  }
+  #IDX-featAgentImg {
+    width: 100%;
+    height: auto;
+  }
+  #IDX-featuredAgentCaption {
+    text-shadow: none;
+  }
+  .IDX-featuredAgentName {
+    font-size: 21px;
+  }
+  .IDX-featuredAgentContact {
+    font-size: 21px;
+    font-family: $font-two;
+  }
+  .IDX-featuredAgentEmail {
+    font-size: 14px;
+
+  }
+}

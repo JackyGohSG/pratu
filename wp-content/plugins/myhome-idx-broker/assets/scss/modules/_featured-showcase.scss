@@ -1,0 +1,98 @@
+.IDX-showcaseTable {
+  display: block !important;
+  padding: 0 !important;
+  width: 100% !important;
+  background-color: transparent !important;
+  margin: 0 auto;
+  .IDX-showcaseRow {
+    display: block !important;
+  }
+  .IDX-showcaseContainer {
+    border: 0px solid transparent !important;
+    background-color: #F2F2F2 !important;
+    box-shadow: none !important;
+  }
+  .IDX-showcaseCell {
+    display: block !important;
+    text-align: center;
+    background-color: transparent !important;
+    border: 0px solid transparent !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    min-width: initial !important;
+    max-width: 100% !important;
+  }
+
+  .IDX-showcaseLink {
+    height: 100%;
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+    display: inline-block;
+  }
+  .IDX-showcaseLink:before {
+    height: 100%;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .IDX-showcasePhoto {
+    max-width: 100%;
+    padding-bottom: 6px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .IDX-showcaseCityStateZip span {
+    font-size: 14px;
+    font-style: normal;
+  }
+
+  .IDX-showcaseCell div {
+    text-align: center;
+  }
+
+  .IDX-showcaseListingID,
+  .IDX-showcaseBeds,
+  .IDX-showcaseBaths,
+  .IDX-showcaseFull,
+  .IDX-showcasePartial,
+  .IDX-showcaseRemarks,
+  .IDX-showcaseDisclaimerLink,
+  .IDX-showcaseStatus,
+  .IDX-showcaseStateAbrv {
+    display: none;
+  }
+
+  .IDX-showcaseContainer {
+    position: relative;
+    padding: 0 0 12px 0 !important;
+  }
+
+  .IDX-showcaseAddress.IDX-showcaseAddressElement {
+    font-size: 21px;
+    font-weight: 700;
+  }
+
+  .IDX-showcaseCityStateZip {
+    font-style: italic;
+    font-size: 15px;
+  }
+
+  span.IDX-showcaseAddressElement.IDX-showcaseCity:before {
+    content: "";
+    margin-right: 5px;
+  }
+
+  .IDX-showcasePrice {
+    color: $mh-color-primary;
+    font-weight: 700;
+    font-family: $font-two;
+    margin-top: 0px;
+    font-size: 21px;
+  }
+  a.IDX-carouselArrow span {
+    margin-top: -80%;
+  }
+}

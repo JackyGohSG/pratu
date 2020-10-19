@@ -1,0 +1,98 @@
+/*------------------------------------------------------------------
+[CONTACT FORM 7 STYLES]
+
+Project:      Admin 2020
+Description:  Loaded if contact form 7 is installed
+
+[Table of contents]
+
+
+1.  Variables
+1.  General Styles
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+1.  Variables
+-------------------------------------------------------------------*/
+@import '../ma-admin-variables.scss';
+/*------------------------------------------------------------------
+1.  General Styles
+-------------------------------------------------------------------*/
+.contact_page_wpcf7-new {
+  #informationdiv {
+    display: none;
+  }
+
+  #submitdiv {
+    width: 100%;
+
+    .submitbox #publishing-action {
+      position: relative;
+    }
+  }
+
+  #contact-form-editor .contact-form-editor-panel {}
+}
+
+.toplevel_page_wpcf7 {
+  #informationdiv {
+    display: none;
+  }
+
+  #submitdiv {
+    width: 100%;
+
+    .submitbox #publishing-action {
+      position: relative;
+    }
+  }
+
+  .shortcode input {
+    border: 1px solid $bordercolor;
+  }
+}
+
+#wpcf7-integration {
+  .card {
+    .inside {
+      margin-top: 30px;
+    }
+  }
+}
+
+.ma-admin-dark #wpcf7-integration {
+  .card {
+    background: $darkblack;
+    border-color: $bordercolor;
+  }
+}
+
+.ma-admin-dark.toplevel_page_wpcf7 {
+  .shortcode input {
+    color: #999 !important;
+    border: 1px solid;
+  }
+}
+
+.ma-admin-dark.contact_page_wpcf7-new {
+  #contact-form-editor {
+    * {
+      border-color: $bordercolor !important;
+    }
+  }
+
+  #contact-form-editor .contact-form-editor-panel {
+    background: $darkblack;
+  }
+
+  #contact-form-editor-tabs li {
+    background: $darkblack;
+
+    a {
+      color: #fff;
+    }
+
+    :hover {
+      background: $darkblack;
+    }
+  }
+}

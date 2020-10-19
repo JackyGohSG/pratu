@@ -1,0 +1,18 @@
+/*------------------------------------------------------------------
+[SITE COMPATIBILITY]
+
+Project:      Admin 2020
+Description:  Applied if plugin is in compatability mode. Attempts to show fonts if user is in dark mode.
+
+[Table of contents]
+
+1.  Font Color
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+1.  Font Color
+-------------------------------------------------------------------*/
+.ma-admin-dark {
+  #wpcontent * {
+    color: rgba(255,255,255,.7);
+  }
+}
