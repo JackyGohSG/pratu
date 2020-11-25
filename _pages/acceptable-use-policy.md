@@ -43,4 +43,6 @@ post_date: 2020-11-25 23:32:40
 <p style="text-align: left;">Disseminate or forward any computer data that you know, or reasonably know, to be computer data of the nature mentioned under items (23), (24), (25) and (26) above.</p>
 </li>
 </ol>
-[/vc_column_text][/vc_column][/vc_row]
+[/vc_column_text][/vc_column][/vc_row][vc_section full_width="stretch_row" content_placement="middle" css=".vc_custom_1606316670119{background-color: #222222 !important;}"][vc_row][vc_column width="2/3"][vc_column_text css_animation="top-to-bottom"]<span style="color: #ffffff;"><a style="color: #ffffff;" href="https://pratu.co/acceptable-use-policy/">Acceptable Use Policy</a>          <a style="color: #ffffff;" href="https://pratu.co/privacy-policy/">Privacy Policy</a>          <a style="color: #ffffff;" href="https://pratu.co/terms-of-service">Terms of Service</a></span>[/vc_column_text][/vc_column][vc_column width="1/3"][vc_column_text]
+<p style="text-align: right;"><span style="color: #ffffff;">2020 Pratu.co. All rights reserved.</span></p>
+[/vc_column_text][/vc_column][/vc_row][/vc_section]
