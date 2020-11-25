@@ -4,7 +4,7 @@ post_title: Acceptable Use Policy
 author: admin
 post_excerpt: ""
 layout: page
-permalink: https://pratu.co/policy/
+permalink: https://pratu.co/acceptable-use-policy/
 published: true
 post_date: 2020-11-25 23:32:40
 ---
