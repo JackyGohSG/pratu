@@ -19,6 +19,8 @@ Please read the following carefully to understand our policy and practices regar
 Unless restricted by applicable law, you agree that any and all personal data relating to you collected by us or provided by you from time to time may be used, processed, and disclosed for such purposes and to such persons as set out in this Privacy Policy.
 
 We may amend this Privacy Policy at any time by posting a revised version on the Website. While we endeavor to send an individual notice every time the policy is amended, you will be deemed to have acknowledged and agreed to the amended Privacy Policy if you continue to use the Website, the Apps or our services after the changes have taken effect. You are reminded to check this Website from time to time for updates to this Privacy Policy.
+
+&nbsp;
 <ol>
  	<li><strong>COLLECTION OF PERSONAL DATA</strong></li>
 </ol>
@@ -47,16 +49,8 @@ When you use our Services, we collect a variety of information from and about yo
  	<li>We also collect information about the computer or mobile device you use to access our Services, such as the hardware model, operating system and version, unique device identifiers, mobile network information, and browsing behaviour.</li>
  	<li>We also allow certain third parties to collect information about your online activities through cookies and other technologies when you use the Website. These third parties include (a) business partners, who collect information when you view or interact with one of their advertisements on the Website, and (b) advertising networks, who collect information about your interests when you view or interact with one of the advertisements they place on many different web sites on the Internet. The information gathered by these third parties are non-personally identifiable information which is used to make predictions about your characteristics, interests or preferences and to display advertisements on the Website, and across the Internet which are tailored to your interests</li>
  	<li>Many of the third parties we allow to collect information on the Website are members of the Network Advertising Initiative, which offers a single location to opt out of advertising targeting from member companies. To opt out, please follow the link: <a href="http://www.networkadvertising.org/choices/">http://www.networkadvertising.org/choices/</a> and follow the instructions on the site. Another good way of opting out is through the following link: <a href="http://www.aboutads.info/choices/">http://www.aboutads.info/choices/</a>. Lastly, you can manage the type of cookies that are allowed through your browser settings, including completely blocking all cookies if you so wish. For information about how to manage cookies on your browser, please see the help section of the browser you are using.</li>
-</ul>
-<ul>
  	<li><strong>Mobile device and mobile browser information. </strong>You may adjust settings on your mobile device and mobile browser regarding cookies and sharing of certain information, such as your mobile device model or the language your mobile device uses, by adjusting the privacy and security settings on your mobile device. Please refer to the instructions provided by your mobile service provider or mobile device manufacturer.</li>
-</ul>
-&nbsp;
-<ul>
  	<li><strong>Location Data</strong>. If you enable location services on your mobile device, Platform Co. with your permission may collect the location of your device, which we use to provide you with location-based information and advertising. If you wish to deactivate this feature, you can disable location services on your mobile device.</li>
-</ul>
-&nbsp;
-<ul>
  	<li><strong>Email Management. </strong>You may receive email from PropertyGuru Group for a variety of reasons - for example, if you took an action through the Services, you signed up for a regular report, or you posted your home for sale or rent and a buyer sent you a message. If you have an account with PropertyGuru Group, you may edit your preferences through your account settings. Also, you can manage your receipt of some types of communication by following the instructions included in the email we send you. Please note that, even if you unsubscribe from certain email correspondences, we may still need to email you with important transactional or administrative information.</li>
 </ul>
 &nbsp;
@@ -105,6 +99,7 @@ When you use our Services, we collect a variety of information from and about yo
  	<li>in connection with any legal proceedings or prospective legal proceedings; and</li>
  	<li>in connection with a business asset transaction (i.e. the purchase, sale, lease, merger or amalgamation or any other acquisition, disposal or financing of an organisation or a portion of an organisation or of any of the business or assets of an organisation) to which we are a party or a prospective party.</li>
 </ul>
+&nbsp;
 <ol start="5">
  	<li><strong>INTERNATIONAL DATA TRANSFERS</strong></li>
 </ol>
