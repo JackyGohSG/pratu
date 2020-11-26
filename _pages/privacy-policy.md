@@ -63,7 +63,6 @@ When you use our Services, we collect a variety of information from and about yo
 <ol start="2">
  	<li><strong>PURPOSES OF USE</strong></li>
 </ol>
-&nbsp;
 <ul>
  	<li>The personal data which you provide may be used and processed by us in the aggregate or individually and may be combined with other information for the purpose of managing and operating the Website, the scope of which may include, but is not limited to the following:</li>
 </ul>
@@ -78,7 +77,7 @@ When you use our Services, we collect a variety of information from and about yo
  	<li>performing office and operational administrative matters; and</li>
  	<li>providing third parties with statistical information about our users. Such statistical information may be used to personalise advertising on the Website, but cannot be used to identify any individual user. For details on how to opt out of personalised advertising, please refer to section 8 of this Privacy Policy.
 <ul>
- 	<li>We will not, without your express consent, disclose your personal data to third parties for the purposes of direct marketing. Consent for disclosure of personal data to third parties, for the purposes of receiving marketing communications, is given through our registration form, either online or on paper. You can withdraw your consent by contacting our customer service: <a href="http://www.pratu.asia/contactus">http://www.pratu.asia/contactus</a>. If you have given your consent when registering as a member on the Website, you can also withdraw your consent by revisiting the online registration form: <a href="http://www.pratu.asia/user-profile">http://www.pratu.asia/user-profile</a>, and unticking the consent box.</li>
+ 	<li>We will not, without your express consent, disclose your personal data to third parties for the purposes of direct marketing. Consent for disclosure of personal data to third parties, for the purposes of receiving marketing communications, is given through our registration form, either online or on paper. You can withdraw your consent by contacting our customer service: <a href="http://www.pratu.co/contact-us">http://www.pratu.co/contact-us</a>. If you have given your consent when registering as a member on the Website, you can also withdraw your consent by revisiting the online registration form: <a href="http://www.pratu.asia/user-profile">http://www.pratu.asia/user-profile</a>, and unticking the consent box.</li>
 </ul>
 </li>
 </ul>
@@ -86,7 +85,6 @@ When you use our Services, we collect a variety of information from and about yo
 <ol start="3">
  	<li><strong>SECURITY</strong></li>
 </ol>
-&nbsp;
 <ul>
  	<li>We will take reasonable technical and organizational precautions to prevent the loss, misuse or alteration of your personal data.</li>
  	<li>We will store all the personal data you provide on secure servers in an encrypted format.</li>
@@ -98,12 +96,11 @@ When you use our Services, we collect a variety of information from and about yo
 <ol start="4">
  	<li><strong>DISCLOSURE OF PERSONAL DATA</strong></li>
 </ol>
-&nbsp;
 <ul>
  	<li>In order to manage and operate the Website, we may disclose your personal data to any member of our group, which means our affiliates and subsidiaries. We may also disclose your personal data to third parties such as our service providers and professional advisors for the following purposes:</li>
 </ul>
 <ul>
- 	<li>to comply with any legal requirement; to enforce or apply our Terms of Service <a href="http://www.pratu.asia/customer-service/terms-of-service">http://www.pratu.asia/customer-service/terms-of-service</a> and other agreements;</li>
+ 	<li>to comply with any legal requirement; to enforce or apply our Terms of Service <a href="http://www.pratu.co/terms-of-service">http://www.pratu.co/terms-of-service</a> and other agreements;</li>
  	<li>to protect our rights, property, and safety, and the rights, property and safety of our affiliates and subsidiaries, other users of the Website, and others;</li>
  	<li>in connection with any legal proceedings or prospective legal proceedings; and</li>
  	<li>in connection with a business asset transaction (i.e. the purchase, sale, lease, merger or amalgamation or any other acquisition, disposal or financing of an organisation or a portion of an organisation or of any of the business or assets of an organisation) to which we are a party or a prospective party.</li>
@@ -111,9 +108,8 @@ When you use our Services, we collect a variety of information from and about yo
 <ol start="5">
  	<li><strong>INTERNATIONAL DATA TRANSFERS</strong></li>
 </ol>
-&nbsp;
 <ul>
- 	<li>We operate in many countries and may temporarily store, process or transfer your personal data between any of the countries in which we operate in order to enable us to use your personal data in accordance with this Privacy Policy and our Terms of Service <a href="http://www.pratu.asia/customer-service/terms-of-service">http://www.pratu.asia/customer-service/terms-of-service</a></li>
+ 	<li>We operate in many countries and may temporarily store, process or transfer your personal data between any of the countries in which we operate in order to enable us to use your personal data in accordance with this Privacy Policy and our Terms of Service <a href="http://www.pratu.co/terms-of-service">http://www.pratu.co/terms-of-service</a></li>
  	<li>We will take all steps reasonably necessary to ensure that your personal data is treated securely and in accordance with this Privacy Policy.</li>
 </ul>
 &nbsp;
@@ -138,7 +134,6 @@ When you use our Services, we collect a variety of information from and about yo
 <ol start="8">
  	<li><strong>DISCLAIMER</strong></li>
 </ol>
-&nbsp;
 <ul>
  	<li>We shall not be liable for any voluntary disclosure of personal data by you to other users in connection with the use of the Website, as the case may be.</li>
 </ul>
@@ -146,9 +141,8 @@ When you use our Services, we collect a variety of information from and about yo
 <ol start="9">
  	<li><strong>CONTACT US</strong></li>
 </ol>
-&nbsp;
 <ul>
- 	<li>Should you require further information about the treatment of your personal data by us, please do not hesitate to contact our privacy officer at: <a href="mailto:dpo@pratu.asia">dpo@pratu.asia</a></li>
+ 	<li>Should you require further information about the treatment of your personal data by us, please do not hesitate to contact our privacy officer at: <a href="mailto:dpo@pratu.co">dpo@pratu.co</a></li>
 </ul>
 [/vc_column_text][/vc_column][/vc_row][vc_section full_width="stretch_row" content_placement="middle" css=".vc_custom_1606316670119{background-color: #222222 !important;}"][vc_row][vc_column width="2/3"][vc_column_text css_animation="none"]<span style="color: #ffffff;"><a style="color: #ffffff;" href="https://pratu.co/acceptable-use-policy/">Acceptable Use Policy</a>          <a style="color: #ffffff;" href="https://pratu.co/privacy-policy/">Privacy Policy</a>          <a style="color: #ffffff;" href="https://pratu.co/terms-of-service">Terms of Service</a></span>[/vc_column_text][/vc_column][vc_column width="1/3"][vc_column_text]
 <p style="text-align: right;"><span style="color: #ffffff;">2020 Pratu.co. All rights reserved.</span></p>
